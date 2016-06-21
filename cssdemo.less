@@ -1,0 +1,107 @@
+
+.pseudo-parent-selector1 {
+    .tmp-panel {
+        padding: 10px;
+        > .panel-content {
+            border-radius: 5px;
+            background: lightgray;
+            border: 1px solid gray;
+            height: 100px;
+            padding: 10px;
+        }
+    }
+    .left-panel {
+        .tmp-panel;
+    }
+    .right-panel {
+        .tmp-panel;
+    }
+    .left-panel:hover {
+        > .panel-content {
+            background: lightyellow;
+            opacity: 0.5;
+            color: blue;
+            font-weight: bold;
+        }
+    }
+}
+
+.pseudo-parent-selector2 {
+    .tmp-panel {
+        padding: 10px;
+        > .panel-content {
+            border-radius: 5px;
+            background: lightgray;
+            border: 1px solid gray;
+            height: 100px;
+            padding: 10px;
+        }
+    }
+    .left-panel {
+        .tmp-panel;
+    }
+    .right-panel {
+        .tmp-panel;
+    }
+    .left-panel:hover {
+        > .panel-content {
+            background: lightyellow;
+            opacity: 0.5;
+            color: blue;
+            font-weight: bold;
+        }
+        + .right-panel-selector {
+            width: 200%;
+            height: 200%;
+            border: 1px solid blue;
+            z-index: -1;
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+    }
+}
+
+.negative-margin1 {
+    .row {
+        margin-top: 50px;
+    }
+    border: 1px solid gray;
+    padding: 10px;
+    .row-text {
+        text-align: center;
+        font-size: 35px;
+        height: 50px;
+    }
+    // .row-text4 {
+    //     border-top: 2px dashed gray;
+    // }
+    // .row-text3 {
+    //     border-bottom: 2px dashed gray;
+    // }
+}
+
+.negative-margin2 {
+    .row {
+        margin-top: 50px;
+    }
+    border: 1px solid gray;
+    padding: 10px;
+    .row-text {
+        text-align: center;
+        font-size: 35px;
+        height: 50px;
+        margin-top: -75px;
+        >span {
+            background: white;
+            padding: 0 20px;
+        }
+    }
+    .crossed-line-container {
+        padding: 0 30px;
+        .crossed-line {
+            border-top: 2px dashed gray;
+            height: 2px;
+        }
+    }
+}

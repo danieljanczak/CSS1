@@ -91,9 +91,9 @@
         text-align: center;
         font-size: 35px;
         height: 50px;
-        margin-top: -75px;
+        //margin-top: -75px;
         >span {
-            background: white;
+            //background: white;
             padding: 0 20px;
         }
     }
@@ -103,5 +103,149 @@
             border-top: 2px dashed gray;
             height: 2px;
         }
+    }
+}
+
+
+.negative-margin3 {
+    textarea {
+        margin: 5px;
+    }
+    .row {
+        margin-top: 20px;
+    }
+    .tmp-panel {
+        > .panel-content {
+            background: lightgray;
+        }
+    }
+    .left-panel {
+        .tmp-panel;
+    }
+    .right-panel {
+        .tmp-panel;
+    }
+    .right-column {
+        >div {
+            margin-top: 10px;
+            &:first-child {
+                margin-top: 0;
+            }
+        } 
+    }
+}
+
+
+.negative-margin4 {
+    textarea {
+        margin: 5px;
+    }
+    .row {
+        margin-top: 20px;
+        overflow: hidden;
+    }
+    .tmp-panel {
+        > .panel-content {
+            background: lightgray;
+        }
+    }
+    .left-panel {
+        background: lightgray;
+        padding-bottom: 1000px;
+        margin-bottom: -1000px;        
+    }
+    .right-panel {
+        .tmp-panel;
+    }
+    .right-column {
+        .right-panel {
+            margin-top: 10px;
+            &:first-child {
+                margin-top: 0;
+            }
+        } 
+    }
+}
+
+.negative-margin5 {
+    textarea {
+        margin: 5px;
+    }
+    .row {
+        margin-top: 20px;
+        overflow: hidden;
+    }
+    .tmp-panel {
+        > .panel-content {
+            background: lightgray;
+            border: 3px solid blue;
+            border-radius: 5px;
+        }
+    }
+    .left-panel {
+        background: lightgray;
+        padding-bottom: 1000px;
+        margin-bottom: -1000px;
+        border: 3px solid blue;
+        border-radius: 5px;
+    }
+    .right-panel {
+        .tmp-panel;
+    }
+    .right-column {
+        .right-panel {
+            margin-top: 10px;
+            &:first-child {
+                margin-top: 0;
+            }
+        } 
+    }
+}
+
+.negative-margin6 {
+    textarea {
+        margin: 5px;
+    }
+    .row {
+        margin-top: 20px;
+        overflow: hidden;
+    }
+    .tmp-panel {
+        > .panel-content {
+            background: lightgray;
+            border: 3px solid blue;
+            border-radius: 5px;
+        }
+    }
+    .left-panel {
+        background: lightgray;
+        padding-bottom: 1000px;
+        margin-bottom: -1000px;
+        border: 3px solid blue;
+        border-radius: 5px;
+    }
+    .right-panel {
+        .tmp-panel;
+    }
+    .right-column {
+        .right-panel {
+            margin-top: 10px;
+            &:first-child {
+                margin-top: 0;
+            }
+        } 
+    }
+    .left-panel-closer {
+        height: 10px;
+        width:100%; 
+        background:lightgray;
+        border-bottom: 3px solid blue;
+        border-left: 3px solid blue;
+        border-right: 3px solid blue;
+        border-radius: 5px;
+        margin-top: -9px;    
+    }
+    .col-xs-6 {
+        background: white;
     }
 }

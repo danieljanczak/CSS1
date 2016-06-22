@@ -102,10 +102,8 @@
   text-align: center;
   font-size: 35px;
   height: 50px;
-  margin-top: -75px;
 }
 .negative-margin2 .row-text > span {
-  background: white;
   padding: 0 20px;
 }
 .negative-margin2 .crossed-line-container {
@@ -114,4 +112,122 @@
 .negative-margin2 .crossed-line-container .crossed-line {
   border-top: 2px dashed gray;
   height: 2px;
+}
+.negative-margin3 textarea {
+  margin: 5px;
+}
+.negative-margin3 .row {
+  margin-top: 20px;
+}
+.negative-margin3 .tmp-panel > .panel-content {
+  background: lightgray;
+}
+.negative-margin3 .left-panel > .panel-content {
+  background: lightgray;
+}
+.negative-margin3 .right-panel > .panel-content {
+  background: lightgray;
+}
+.negative-margin3 .right-column > div {
+  margin-top: 10px;
+}
+.negative-margin3 .right-column > div:first-child {
+  margin-top: 0;
+}
+.negative-margin4 textarea {
+  margin: 5px;
+}
+.negative-margin4 .row {
+  margin-top: 20px;
+  overflow: hidden;
+}
+.negative-margin4 .tmp-panel > .panel-content {
+  background: lightgray;
+}
+.negative-margin4 .left-panel {
+  background: lightgray;
+  padding-bottom: 1000px;
+  margin-bottom: -1000px;
+}
+.negative-margin4 .right-panel > .panel-content {
+  background: lightgray;
+}
+.negative-margin4 .right-column .right-panel {
+  margin-top: 10px;
+}
+.negative-margin4 .right-column .right-panel:first-child {
+  margin-top: 0;
+}
+.negative-margin5 textarea {
+  margin: 5px;
+}
+.negative-margin5 .row {
+  margin-top: 20px;
+  overflow: hidden;
+}
+.negative-margin5 .tmp-panel > .panel-content {
+  background: lightgray;
+  border: 3px solid blue;
+  border-radius: 5px;
+}
+.negative-margin5 .left-panel {
+  background: lightgray;
+  padding-bottom: 1000px;
+  margin-bottom: -1000px;
+  border: 3px solid blue;
+  border-radius: 5px;
+}
+.negative-margin5 .right-panel > .panel-content {
+  background: lightgray;
+  border: 3px solid blue;
+  border-radius: 5px;
+}
+.negative-margin5 .right-column .right-panel {
+  margin-top: 10px;
+}
+.negative-margin5 .right-column .right-panel:first-child {
+  margin-top: 0;
+}
+.negative-margin6 textarea {
+  margin: 5px;
+}
+.negative-margin6 .row {
+  margin-top: 20px;
+  overflow: hidden;
+}
+.negative-margin6 .tmp-panel > .panel-content {
+  background: lightgray;
+  border: 3px solid blue;
+  border-radius: 5px;
+}
+.negative-margin6 .left-panel {
+  background: lightgray;
+  padding-bottom: 1000px;
+  margin-bottom: -1000px;
+  border: 3px solid blue;
+  border-radius: 5px;
+}
+.negative-margin6 .right-panel > .panel-content {
+  background: lightgray;
+  border: 3px solid blue;
+  border-radius: 5px;
+}
+.negative-margin6 .right-column .right-panel {
+  margin-top: 10px;
+}
+.negative-margin6 .right-column .right-panel:first-child {
+  margin-top: 0;
+}
+.negative-margin6 .left-panel-closer {
+  height: 10px;
+  width: 100%;
+  background: lightgray;
+  border-bottom: 3px solid blue;
+  border-left: 3px solid blue;
+  border-right: 3px solid blue;
+  border-radius: 5px;
+  margin-top: -9px;
+}
+.negative-margin6 .col-xs-6 {
+  background: white;
 }

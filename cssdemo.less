@@ -59,6 +59,7 @@ textarea {
             width: 200%;
             height: 200%;
             border: 1px solid blue;
+            border-radius: 5px;
             z-index: -1;
             position: absolute;
             left: 0;
@@ -371,3 +372,71 @@ textarea {
         }
     }
 }
+
+
+.negative-margin9 {
+    .row {
+        margin-top: 20px;
+    }
+    .tmp-panel {
+        > .panel-content {
+            background: lightgray;
+        }
+    }
+    .left-panel {
+        background: lightgray;      
+    }
+    .right-panel {
+        .tmp-panel;
+    }
+    .right-column {
+        .right-panel {
+            margin-top: 10px;
+            &:first-child {
+                margin-top: 0;
+            }
+        } 
+    }
+
+    .drop-hover {
+        border: 3px solid blue;
+    }
+}
+
+
+.negative-margin10 {
+    .row {
+        margin-top: 20px;
+    }
+    .tmp-panel {
+        > .panel-content {
+            background: lightgray;
+        }
+    }
+    .left-panel {
+        background: lightgray;      
+    }
+    .right-panel {
+        .tmp-panel;
+    }
+    .right-column {
+        .right-panel {
+            margin-top: 10px;
+            &:first-child {
+                margin-top: 0;
+            }
+        } 
+    }
+
+    //.drop-hover {
+    //.drop-hover:first-of-type {
+    //.drop-hover:nth-of-type(1) {
+    .drop-hover {
+        //border: 3px solid blue;
+        box-shadow: 0 0 0 3px blue;
+    }
+    .drop-hover ~ .drop-hover {
+        box-shadow: initial;
+    }
+}
+

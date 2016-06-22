@@ -79,6 +79,7 @@ textarea {
   width: 200%;
   height: 200%;
   border: 1px solid blue;
+  border-radius: 5px;
   z-index: -1;
   position: absolute;
   left: 0;
@@ -329,4 +330,49 @@ textarea {
 .negative-margin8 .left-column:hover ~ .left-panel-closer-column .left-panel-closer > div {
   background: yellow;
   opacity: 0.5;
+}
+.negative-margin9 .row {
+  margin-top: 20px;
+}
+.negative-margin9 .tmp-panel > .panel-content {
+  background: lightgray;
+}
+.negative-margin9 .left-panel {
+  background: lightgray;
+}
+.negative-margin9 .right-panel > .panel-content {
+  background: lightgray;
+}
+.negative-margin9 .right-column .right-panel {
+  margin-top: 10px;
+}
+.negative-margin9 .right-column .right-panel:first-child {
+  margin-top: 0;
+}
+.negative-margin9 .drop-hover {
+  border: 3px solid blue;
+}
+.negative-margin10 .row {
+  margin-top: 20px;
+}
+.negative-margin10 .tmp-panel > .panel-content {
+  background: lightgray;
+}
+.negative-margin10 .left-panel {
+  background: lightgray;
+}
+.negative-margin10 .right-panel > .panel-content {
+  background: lightgray;
+}
+.negative-margin10 .right-column .right-panel {
+  margin-top: 10px;
+}
+.negative-margin10 .right-column .right-panel:first-child {
+  margin-top: 0;
+}
+.negative-margin10 .drop-hover {
+  box-shadow: 0 0 0 3px blue;
+}
+.negative-margin10 .drop-hover ~ .drop-hover {
+  box-shadow: initial;
 }

@@ -1,3 +1,8 @@
+textarea {
+    width: 100px;
+    margin: 5px;
+    resize: vertical;
+}
 
 .pseudo-parent-selector1 {
     .tmp-panel {
@@ -108,9 +113,6 @@
 
 
 .negative-margin3 {
-    textarea {
-        margin: 5px;
-    }
     .row {
         margin-top: 20px;
     }
@@ -137,9 +139,6 @@
 
 
 .negative-margin4 {
-    textarea {
-        margin: 5px;
-    }
     .row {
         margin-top: 20px;
         overflow: hidden;
@@ -168,9 +167,6 @@
 }
 
 .negative-margin5 {
-    textarea {
-        margin: 5px;
-    }
     .row {
         margin-top: 20px;
         overflow: hidden;
@@ -202,10 +198,8 @@
     }
 }
 
+
 .negative-margin6 {
-    textarea {
-        margin: 5px;
-    }
     .row {
         margin-top: 20px;
         overflow: hidden;
@@ -236,16 +230,144 @@
         } 
     }
     .left-panel-closer {
-        height: 10px;
-        width:100%; 
-        background:lightgray;
-        border-bottom: 3px solid blue;
-        border-left: 3px solid blue;
-        border-right: 3px solid blue;
-        border-radius: 5px;
-        margin-top: -9px;    
+        margin-top: -5px;
+        div {
+            background: white;
+            height: 5px;
+            div {
+                height: 5px;
+                width:100%; 
+                background:lightgray;
+                border-bottom: 3px solid blue;
+                border-left: 3px solid blue;
+                border-right: 3px solid blue;
+                border-bottom-left-radius: 5px;
+                border-bottom-right-radius: 5px;
+            }
+        }
     }
-    .col-xs-6 {
+}
+
+
+.negative-margin7 {
+    .row {
+        margin-top: 20px;
+        overflow: hidden;
+    }
+    .tmp-panel {
+        > .panel-content {
+            background: lightgray;
+            border: 3px solid blue;
+            border-radius: 5px;
+        }
+    }
+    .left-panel {
+        background: lightgray;
+        padding-bottom: 1000px;
+        margin-bottom: -1000px;
+        border: 3px solid blue;
+        border-radius: 5px;
+    }
+    .right-panel {
+        .tmp-panel;
+    }
+    .right-column {
+        .right-panel {
+            margin-top: 10px;
+            &:first-child {
+                margin-top: 0;
+            }
+        } 
+    }
+    .left-panel-closer {
+        margin-top: -5px;
+        div {
+            background: white;
+            height: 5px;
+            div {
+                height: 5px;
+                width:100%; 
+                background:lightgray;
+                border-bottom: 3px solid blue;
+                border-left: 3px solid blue;
+                border-right: 3px solid blue;
+                border-bottom-left-radius: 5px;
+                border-bottom-right-radius: 5px;
+            }
+        }
+    }
+    .left-column:hover {
+        .left-panel {
+            background: yellow;
+            opacity: 0.5;
+            color: blue;
+            font-weight: bold;
+        }
+    }
+}
+
+
+.negative-margin8 {
+    .row {
+        margin-top: 20px;
+        overflow: hidden;
+    }
+    .tmp-panel {
+        > .panel-content {
+            background: lightgray;
+            border: 3px solid blue;
+            border-radius: 5px;
+        }
+    }
+    .left-panel {
+        background: lightgray;
+        padding-bottom: 1000px;
+        margin-bottom: -1000px;
+        border: 3px solid blue;
+        border-radius: 5px;
+    }
+    .right-panel {
+        .tmp-panel;
+    }
+    .right-column {
+        .right-panel {
+            margin-top: 10px;
+            &:first-child {
+                margin-top: 0;
+            }
+        } 
+    }
+
+    .left-panel-closer {
+        width: 100%;
         background: white;
+        > div {
+            height: 5px;
+            width:100%; 
+            background:lightgray;
+            border-bottom: 3px solid blue;
+            border-left: 3px solid blue;
+            border-right: 3px solid blue;
+            border-bottom-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+            margin-top: -4px; 
+        }   
+    }
+
+    .left-column:hover {
+        .left-panel {
+            background: yellow;
+            opacity: 0.5;
+            color: blue;
+            font-weight: bold;
+        }
+        & ~ .left-panel-closer-column {
+            .left-panel-closer {
+                > div {
+                    background: yellow;
+                    opacity: 0.5;
+                }
+            }
+        }
     }
 }

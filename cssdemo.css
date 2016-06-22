@@ -1,3 +1,8 @@
+textarea {
+  width: 100px;
+  margin: 5px;
+  resize: vertical;
+}
 .pseudo-parent-selector1 .tmp-panel {
   padding: 10px;
 }
@@ -113,9 +118,6 @@
   border-top: 2px dashed gray;
   height: 2px;
 }
-.negative-margin3 textarea {
-  margin: 5px;
-}
 .negative-margin3 .row {
   margin-top: 20px;
 }
@@ -133,9 +135,6 @@
 }
 .negative-margin3 .right-column > div:first-child {
   margin-top: 0;
-}
-.negative-margin4 textarea {
-  margin: 5px;
 }
 .negative-margin4 .row {
   margin-top: 20px;
@@ -157,9 +156,6 @@
 }
 .negative-margin4 .right-column .right-panel:first-child {
   margin-top: 0;
-}
-.negative-margin5 textarea {
-  margin: 5px;
 }
 .negative-margin5 .row {
   margin-top: 20px;
@@ -187,9 +183,6 @@
 }
 .negative-margin5 .right-column .right-panel:first-child {
   margin-top: 0;
-}
-.negative-margin6 textarea {
-  margin: 5px;
 }
 .negative-margin6 .row {
   margin-top: 20px;
@@ -219,15 +212,121 @@
   margin-top: 0;
 }
 .negative-margin6 .left-panel-closer {
-  height: 10px;
+  margin-top: -5px;
+}
+.negative-margin6 .left-panel-closer div {
+  background: white;
+  height: 5px;
+}
+.negative-margin6 .left-panel-closer div div {
+  height: 5px;
   width: 100%;
   background: lightgray;
   border-bottom: 3px solid blue;
   border-left: 3px solid blue;
   border-right: 3px solid blue;
-  border-radius: 5px;
-  margin-top: -9px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
-.negative-margin6 .col-xs-6 {
+.negative-margin7 .row {
+  margin-top: 20px;
+  overflow: hidden;
+}
+.negative-margin7 .tmp-panel > .panel-content {
+  background: lightgray;
+  border: 3px solid blue;
+  border-radius: 5px;
+}
+.negative-margin7 .left-panel {
+  background: lightgray;
+  padding-bottom: 1000px;
+  margin-bottom: -1000px;
+  border: 3px solid blue;
+  border-radius: 5px;
+}
+.negative-margin7 .right-panel > .panel-content {
+  background: lightgray;
+  border: 3px solid blue;
+  border-radius: 5px;
+}
+.negative-margin7 .right-column .right-panel {
+  margin-top: 10px;
+}
+.negative-margin7 .right-column .right-panel:first-child {
+  margin-top: 0;
+}
+.negative-margin7 .left-panel-closer {
+  margin-top: -5px;
+}
+.negative-margin7 .left-panel-closer div {
   background: white;
+  height: 5px;
+}
+.negative-margin7 .left-panel-closer div div {
+  height: 5px;
+  width: 100%;
+  background: lightgray;
+  border-bottom: 3px solid blue;
+  border-left: 3px solid blue;
+  border-right: 3px solid blue;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.negative-margin7 .left-column:hover .left-panel {
+  background: yellow;
+  opacity: 0.5;
+  color: blue;
+  font-weight: bold;
+}
+.negative-margin8 .row {
+  margin-top: 20px;
+  overflow: hidden;
+}
+.negative-margin8 .tmp-panel > .panel-content {
+  background: lightgray;
+  border: 3px solid blue;
+  border-radius: 5px;
+}
+.negative-margin8 .left-panel {
+  background: lightgray;
+  padding-bottom: 1000px;
+  margin-bottom: -1000px;
+  border: 3px solid blue;
+  border-radius: 5px;
+}
+.negative-margin8 .right-panel > .panel-content {
+  background: lightgray;
+  border: 3px solid blue;
+  border-radius: 5px;
+}
+.negative-margin8 .right-column .right-panel {
+  margin-top: 10px;
+}
+.negative-margin8 .right-column .right-panel:first-child {
+  margin-top: 0;
+}
+.negative-margin8 .left-panel-closer {
+  width: 100%;
+  background: white;
+}
+.negative-margin8 .left-panel-closer > div {
+  height: 5px;
+  width: 100%;
+  background: lightgray;
+  border-bottom: 3px solid blue;
+  border-left: 3px solid blue;
+  border-right: 3px solid blue;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  margin-top: -4px;
+}
+.negative-margin8 .left-column:hover .left-panel {
+  background: yellow;
+  opacity: 0.5;
+  color: blue;
+  font-weight: bold;
+}
+.negative-margin8 .left-column:hover ~ .left-panel-closer-column .left-panel-closer > div {
+  background: yellow;
+  opacity: 0.5;
 }

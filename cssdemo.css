@@ -477,6 +477,31 @@ textarea {
   background: yellow;
   opacity: 0.5;
 }
+.negative-margin5 .thin-line {
+  width: 100%;
+  height: 3px;
+  background: lightgray;
+  display: block;
+  margin-top: 40px;
+}
+.negative-margin5 .row {
+  margin-top: 20px;
+}
+.negative-margin5 .tmp-panel > .panel-content {
+  background: lightgray;
+}
+.negative-margin5 .left-panel {
+  background: lightgray;
+}
+.negative-margin5 .right-panel > .panel-content {
+  background: lightgray;
+}
+.negative-margin5 .right-column .right-panel {
+  margin-top: 30px;
+}
+.negative-margin5 .right-column .right-panel:first-child {
+  margin-top: 0;
+}
 .negative-margin5a .thin-line {
   width: 100%;
   height: 3px;

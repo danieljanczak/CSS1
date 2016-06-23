@@ -4,7 +4,7 @@ textarea {
     resize: vertical;
 }
 
-.pseudo-parent-selector1 {
+.pseudo-parent-selector1a {
     .tmp-panel {
         padding: 10px;
         > .panel-content {
@@ -31,7 +31,7 @@ textarea {
     }
 }
 
-.pseudo-parent-selector2 {
+.pseudo-parent-selector1b {
     .tmp-panel {
         padding: 10px;
         > .panel-content {
@@ -68,7 +68,7 @@ textarea {
     }
 }
 
-.negative-margin1 {
+.negative-margin1a {
     .row {
         margin-top: 50px;
     }
@@ -79,15 +79,9 @@ textarea {
         font-size: 35px;
         height: 50px;
     }
-    // .row-text4 {
-    //     border-top: 2px dashed gray;
-    // }
-    // .row-text3 {
-    //     border-bottom: 2px dashed gray;
-    // }
 }
 
-.negative-margin2 {
+.negative-margin1b {
     .row {
         margin-top: 50px;
     }
@@ -97,9 +91,75 @@ textarea {
         text-align: center;
         font-size: 35px;
         height: 50px;
-        //margin-top: -75px;
+    }
+    .row-text4 {
+        border-top: 2px dashed gray;
+    }
+    .row-text3 {
+        border-bottom: 2px dashed gray;
+    }
+}
+
+.negative-margin1c {
+    .row {
+        margin-top: 50px;
+    }
+    border: 1px solid gray;
+    padding: 10px;
+    .row-text {
+        text-align: center;
+        font-size: 35px;
+        height: 50px;
         >span {
-            //background: white;
+            padding: 0 20px;
+        }
+    }
+    .crossed-line-container {
+        padding: 0 30px;
+        .crossed-line {
+            border-top: 2px dashed gray;
+            height: 2px;
+        }
+    }
+}
+
+.negative-margin1d {
+    .row {
+        margin-top: 50px;
+    }
+    border: 1px solid gray;
+    padding: 10px;
+    .row-text {
+        text-align: center;
+        font-size: 35px;
+        height: 50px;
+        margin-top: -75px;
+        >span {
+            padding: 0 20px;
+        }
+    }
+    .crossed-line-container {
+        padding: 0 30px;
+        .crossed-line {
+            border-top: 2px dashed gray;
+            height: 2px;
+        }
+    }
+}
+
+.negative-margin1e {
+    .row {
+        margin-top: 50px;
+    }
+    border: 1px solid gray;
+    padding: 10px;
+    .row-text {
+        text-align: center;
+        font-size: 35px;
+        height: 50px;
+        margin-top: -75px;
+        >span {
+            background: white;
             padding: 0 20px;
         }
     }
@@ -113,7 +173,7 @@ textarea {
 }
 
 
-.negative-margin3 {
+.negative-margin2a {
     .row {
         margin-top: 20px;
     }
@@ -139,7 +199,61 @@ textarea {
 }
 
 
-.negative-margin4 {
+.negative-margin2b {
+    .row {
+        margin-top: 20px;
+        overflow: hidden;
+    }
+    .tmp-panel {
+        > .panel-content {
+            background: lightgray;
+        }
+    }
+    .left-panel {
+        background: lightgray;
+        padding-bottom: 1000px;
+    }
+    .right-panel {
+        .tmp-panel;
+    }
+    .right-column {
+        .right-panel {
+            margin-top: 10px;
+            &:first-child {
+                margin-top: 0;
+            }
+        } 
+    }
+}
+
+.negative-margin2c {
+    .row {
+        margin-top: 20px;
+    }
+    .tmp-panel {
+        > .panel-content {
+            background: lightgray;
+        }
+    }
+    .left-panel {
+        background: lightgray;
+        padding-bottom: 1000px;
+        margin-bottom: -1000px;        
+    }
+    .right-panel {
+        .tmp-panel;
+    }
+    .right-column {
+        .right-panel {
+            margin-top: 10px;
+            &:first-child {
+                margin-top: 0;
+            }
+        } 
+    }
+}
+
+.negative-margin2d {
     .row {
         margin-top: 20px;
         overflow: hidden;
@@ -167,7 +281,7 @@ textarea {
     }
 }
 
-.negative-margin5 {
+.negative-margin3a {
     .row {
         margin-top: 20px;
         overflow: hidden;
@@ -200,7 +314,56 @@ textarea {
 }
 
 
-.negative-margin6 {
+.negative-margin3b {
+    .row {
+        margin-top: 20px;
+        overflow: hidden;
+    }
+    .tmp-panel {
+        > .panel-content {
+            background: lightgray;
+            border: 3px solid blue;
+            border-radius: 5px;
+        }
+    }
+    .left-panel {
+        background: lightgray;
+        padding-bottom: 1000px;
+        margin-bottom: -1000px;
+        border: 3px solid blue;
+        border-radius: 5px;
+    }
+    .right-panel {
+        .tmp-panel;
+    }
+    .right-column {
+        .right-panel {
+            margin-top: 10px;
+            &:first-child {
+                margin-top: 0;
+            }
+        } 
+    }
+    .left-panel-closer {
+        div {
+            background: white;
+            height: 5px;
+            div {
+                height: 5px;
+                width:100%; 
+                background:lightgray;
+                border-bottom: 3px solid blue;
+                border-left: 3px solid blue;
+                border-right: 3px solid blue;
+                border-bottom-left-radius: 5px;
+                border-bottom-right-radius: 5px;
+            }
+        }
+    }
+}
+
+
+.negative-margin3c {
     .row {
         margin-top: 20px;
         overflow: hidden;
@@ -250,7 +413,7 @@ textarea {
 }
 
 
-.negative-margin7 {
+.negative-margin4a {
     .row {
         margin-top: 20px;
         overflow: hidden;
@@ -308,7 +471,7 @@ textarea {
 }
 
 
-.negative-margin8 {
+.negative-margin4b {
     .row {
         margin-top: 20px;
         overflow: hidden;
@@ -374,7 +537,14 @@ textarea {
 }
 
 
-.negative-margin9 {
+.negative-margin5a {
+    .thin-line {
+        width:100%; 
+        height:3px; 
+        background: lightgray; 
+        display:block; 
+        margin-top: 40px;  
+    }
     .row {
         margin-top: 20px;
     }
@@ -391,7 +561,7 @@ textarea {
     }
     .right-column {
         .right-panel {
-            margin-top: 10px;
+            margin-top: 30px;
             &:first-child {
                 margin-top: 0;
             }
@@ -404,7 +574,14 @@ textarea {
 }
 
 
-.negative-margin10 {
+.negative-margin5b {
+    .thin-line {
+        width:100%; 
+        height:3px; 
+        background: lightgray; 
+        display:block; 
+        margin-top: 40px;  
+    }
     .row {
         margin-top: 20px;
     }
@@ -421,18 +598,91 @@ textarea {
     }
     .right-column {
         .right-panel {
-            margin-top: 10px;
+            margin-top: 30px;
             &:first-child {
                 margin-top: 0;
             }
         } 
     }
 
-    //.drop-hover {
+    .drop-hover {
+        box-shadow: 0 0 0 3px blue;
+    }
+}
+
+
+.negative-margin5c {
+    .thin-line {
+        width:100%; 
+        height:3px; 
+        background: lightgray; 
+        display:block; 
+        margin-top: 40px;  
+    }
+    .row {
+        margin-top: 20px;
+    }
+    .tmp-panel {
+        > .panel-content {
+            background: lightgray;
+        }
+    }
+    .left-panel {
+        background: lightgray;      
+    }
+    .right-panel {
+        .tmp-panel;
+    }
+    .right-column {
+        .right-panel {
+            margin-top: 30px;
+            &:first-child {
+                margin-top: 0;
+            }
+        } 
+    }
+
+    .drop-hover {
+        box-shadow: 0 0 0 3px blue;
+    }
+    
+}
+
+
+.negative-margin5d {
+    .thin-line {
+        width:100%; 
+        height:3px; 
+        background: lightgray; 
+        display:block; 
+        margin-top: 40px;  
+    }
+    .row {
+        margin-top: 20px;
+    }
+    .tmp-panel {
+        > .panel-content {
+            background: lightgray;
+        }
+    }
+    .left-panel {
+        background: lightgray;      
+    }
+    .right-panel {
+        .tmp-panel;
+    }
+    .right-column {
+        .right-panel {
+            margin-top: 30px;
+            &:first-child {
+                margin-top: 0;
+            }
+        } 
+    }
+
     //.drop-hover:first-of-type {
     //.drop-hover:nth-of-type(1) {
     .drop-hover {
-        //border: 3px solid blue;
         box-shadow: 0 0 0 3px blue;
     }
     .drop-hover ~ .drop-hover {

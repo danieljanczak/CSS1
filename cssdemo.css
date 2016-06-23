@@ -3,79 +3,79 @@ textarea {
   margin: 5px;
   resize: vertical;
 }
-.pseudo-parent-selector1 .tmp-panel {
+.pseudo-parent-selector1a .tmp-panel {
   padding: 10px;
 }
-.pseudo-parent-selector1 .tmp-panel > .panel-content {
+.pseudo-parent-selector1a .tmp-panel > .panel-content {
   border-radius: 5px;
   background: lightgray;
   border: 1px solid gray;
   height: 100px;
   padding: 10px;
 }
-.pseudo-parent-selector1 .left-panel {
+.pseudo-parent-selector1a .left-panel {
   padding: 10px;
 }
-.pseudo-parent-selector1 .left-panel > .panel-content {
+.pseudo-parent-selector1a .left-panel > .panel-content {
   border-radius: 5px;
   background: lightgray;
   border: 1px solid gray;
   height: 100px;
   padding: 10px;
 }
-.pseudo-parent-selector1 .right-panel {
+.pseudo-parent-selector1a .right-panel {
   padding: 10px;
 }
-.pseudo-parent-selector1 .right-panel > .panel-content {
+.pseudo-parent-selector1a .right-panel > .panel-content {
   border-radius: 5px;
   background: lightgray;
   border: 1px solid gray;
   height: 100px;
   padding: 10px;
 }
-.pseudo-parent-selector1 .left-panel:hover > .panel-content {
+.pseudo-parent-selector1a .left-panel:hover > .panel-content {
   background: lightyellow;
   opacity: 0.5;
   color: blue;
   font-weight: bold;
 }
-.pseudo-parent-selector2 .tmp-panel {
+.pseudo-parent-selector1b .tmp-panel {
   padding: 10px;
 }
-.pseudo-parent-selector2 .tmp-panel > .panel-content {
+.pseudo-parent-selector1b .tmp-panel > .panel-content {
   border-radius: 5px;
   background: lightgray;
   border: 1px solid gray;
   height: 100px;
   padding: 10px;
 }
-.pseudo-parent-selector2 .left-panel {
+.pseudo-parent-selector1b .left-panel {
   padding: 10px;
 }
-.pseudo-parent-selector2 .left-panel > .panel-content {
+.pseudo-parent-selector1b .left-panel > .panel-content {
   border-radius: 5px;
   background: lightgray;
   border: 1px solid gray;
   height: 100px;
   padding: 10px;
 }
-.pseudo-parent-selector2 .right-panel {
+.pseudo-parent-selector1b .right-panel {
   padding: 10px;
 }
-.pseudo-parent-selector2 .right-panel > .panel-content {
+.pseudo-parent-selector1b .right-panel > .panel-content {
   border-radius: 5px;
   background: lightgray;
   border: 1px solid gray;
   height: 100px;
   padding: 10px;
 }
-.pseudo-parent-selector2 .left-panel:hover > .panel-content {
+.pseudo-parent-selector1b .left-panel:hover > .panel-content {
   background: lightyellow;
   opacity: 0.5;
   color: blue;
   font-weight: bold;
 }
-.pseudo-parent-selector2 .left-panel:hover + .right-panel-selector {
+.pseudo-parent-selector1b .left-panel:hover + .right-panel-selector {
   width: 200%;
   height: 200%;
   border: 1px solid blue;
@@ -85,141 +85,243 @@ textarea {
   left: 0;
   top: 0;
 }
-.negative-margin1 {
+.negative-margin1a {
   border: 1px solid gray;
   padding: 10px;
 }
-.negative-margin1 .row {
+.negative-margin1a .row {
   margin-top: 50px;
 }
-.negative-margin1 .row-text {
+.negative-margin1a .row-text {
   text-align: center;
   font-size: 35px;
   height: 50px;
 }
-.negative-margin2 {
+.negative-margin1b {
   border: 1px solid gray;
   padding: 10px;
 }
-.negative-margin2 .row {
+.negative-margin1b .row {
   margin-top: 50px;
 }
-.negative-margin2 .row-text {
+.negative-margin1b .row-text {
   text-align: center;
   font-size: 35px;
   height: 50px;
 }
-.negative-margin2 .row-text > span {
+.negative-margin1b .row-text4 {
+  border-top: 2px dashed gray;
+}
+.negative-margin1b .row-text3 {
+  border-bottom: 2px dashed gray;
+}
+.negative-margin1c {
+  border: 1px solid gray;
+  padding: 10px;
+}
+.negative-margin1c .row {
+  margin-top: 50px;
+}
+.negative-margin1c .row-text {
+  text-align: center;
+  font-size: 35px;
+  height: 50px;
+}
+.negative-margin1c .row-text > span {
   padding: 0 20px;
 }
-.negative-margin2 .crossed-line-container {
+.negative-margin1c .crossed-line-container {
   padding: 0 30px;
 }
-.negative-margin2 .crossed-line-container .crossed-line {
+.negative-margin1c .crossed-line-container .crossed-line {
   border-top: 2px dashed gray;
   height: 2px;
 }
-.negative-margin3 .row {
+.negative-margin1d {
+  border: 1px solid gray;
+  padding: 10px;
+}
+.negative-margin1d .row {
+  margin-top: 50px;
+}
+.negative-margin1d .row-text {
+  text-align: center;
+  font-size: 35px;
+  height: 50px;
+  margin-top: -75px;
+}
+.negative-margin1d .row-text > span {
+  padding: 0 20px;
+}
+.negative-margin1d .crossed-line-container {
+  padding: 0 30px;
+}
+.negative-margin1d .crossed-line-container .crossed-line {
+  border-top: 2px dashed gray;
+  height: 2px;
+}
+.negative-margin1e {
+  border: 1px solid gray;
+  padding: 10px;
+}
+.negative-margin1e .row {
+  margin-top: 50px;
+}
+.negative-margin1e .row-text {
+  text-align: center;
+  font-size: 35px;
+  height: 50px;
+  margin-top: -75px;
+}
+.negative-margin1e .row-text > span {
+  background: white;
+  padding: 0 20px;
+}
+.negative-margin1e .crossed-line-container {
+  padding: 0 30px;
+}
+.negative-margin1e .crossed-line-container .crossed-line {
+  border-top: 2px dashed gray;
+  height: 2px;
+}
+.negative-margin2a .row {
   margin-top: 20px;
 }
-.negative-margin3 .tmp-panel > .panel-content {
+.negative-margin2a .tmp-panel > .panel-content {
   background: lightgray;
 }
-.negative-margin3 .left-panel > .panel-content {
+.negative-margin2a .left-panel > .panel-content {
   background: lightgray;
 }
-.negative-margin3 .right-panel > .panel-content {
+.negative-margin2a .right-panel > .panel-content {
   background: lightgray;
 }
-.negative-margin3 .right-column > div {
+.negative-margin2a .right-column > div {
   margin-top: 10px;
 }
-.negative-margin3 .right-column > div:first-child {
+.negative-margin2a .right-column > div:first-child {
   margin-top: 0;
 }
-.negative-margin4 .row {
+.negative-margin2b .row {
   margin-top: 20px;
   overflow: hidden;
 }
-.negative-margin4 .tmp-panel > .panel-content {
+.negative-margin2b .tmp-panel > .panel-content {
   background: lightgray;
 }
-.negative-margin4 .left-panel {
+.negative-margin2b .left-panel {
+  background: lightgray;
+  padding-bottom: 1000px;
+}
+.negative-margin2b .right-panel > .panel-content {
+  background: lightgray;
+}
+.negative-margin2b .right-column .right-panel {
+  margin-top: 10px;
+}
+.negative-margin2b .right-column .right-panel:first-child {
+  margin-top: 0;
+}
+.negative-margin2c .row {
+  margin-top: 20px;
+}
+.negative-margin2c .tmp-panel > .panel-content {
+  background: lightgray;
+}
+.negative-margin2c .left-panel {
   background: lightgray;
   padding-bottom: 1000px;
   margin-bottom: -1000px;
 }
-.negative-margin4 .right-panel > .panel-content {
+.negative-margin2c .right-panel > .panel-content {
   background: lightgray;
 }
-.negative-margin4 .right-column .right-panel {
+.negative-margin2c .right-column .right-panel {
   margin-top: 10px;
 }
-.negative-margin4 .right-column .right-panel:first-child {
+.negative-margin2c .right-column .right-panel:first-child {
   margin-top: 0;
 }
-.negative-margin5 .row {
+.negative-margin2d .row {
   margin-top: 20px;
   overflow: hidden;
 }
-.negative-margin5 .tmp-panel > .panel-content {
+.negative-margin2d .tmp-panel > .panel-content {
+  background: lightgray;
+}
+.negative-margin2d .left-panel {
+  background: lightgray;
+  padding-bottom: 1000px;
+  margin-bottom: -1000px;
+}
+.negative-margin2d .right-panel > .panel-content {
+  background: lightgray;
+}
+.negative-margin2d .right-column .right-panel {
+  margin-top: 10px;
+}
+.negative-margin2d .right-column .right-panel:first-child {
+  margin-top: 0;
+}
+.negative-margin3a .row {
+  margin-top: 20px;
+  overflow: hidden;
+}
+.negative-margin3a .tmp-panel > .panel-content {
   background: lightgray;
   border: 3px solid blue;
   border-radius: 5px;
 }
-.negative-margin5 .left-panel {
+.negative-margin3a .left-panel {
   background: lightgray;
   padding-bottom: 1000px;
   margin-bottom: -1000px;
   border: 3px solid blue;
   border-radius: 5px;
 }
-.negative-margin5 .right-panel > .panel-content {
+.negative-margin3a .right-panel > .panel-content {
   background: lightgray;
   border: 3px solid blue;
   border-radius: 5px;
 }
-.negative-margin5 .right-column .right-panel {
+.negative-margin3a .right-column .right-panel {
   margin-top: 10px;
 }
-.negative-margin5 .right-column .right-panel:first-child {
+.negative-margin3a .right-column .right-panel:first-child {
   margin-top: 0;
 }
-.negative-margin6 .row {
+.negative-margin3b .row {
   margin-top: 20px;
   overflow: hidden;
 }
-.negative-margin6 .tmp-panel > .panel-content {
+.negative-margin3b .tmp-panel > .panel-content {
   background: lightgray;
   border: 3px solid blue;
   border-radius: 5px;
 }
-.negative-margin6 .left-panel {
+.negative-margin3b .left-panel {
   background: lightgray;
   padding-bottom: 1000px;
   margin-bottom: -1000px;
   border: 3px solid blue;
   border-radius: 5px;
 }
-.negative-margin6 .right-panel > .panel-content {
+.negative-margin3b .right-panel > .panel-content {
   background: lightgray;
   border: 3px solid blue;
   border-radius: 5px;
 }
-.negative-margin6 .right-column .right-panel {
+.negative-margin3b .right-column .right-panel {
   margin-top: 10px;
 }
-.negative-margin6 .right-column .right-panel:first-child {
+.negative-margin3b .right-column .right-panel:first-child {
   margin-top: 0;
 }
-.negative-margin6 .left-panel-closer {
-  margin-top: -5px;
-}
-.negative-margin6 .left-panel-closer div {
+.negative-margin3b .left-panel-closer div {
   background: white;
   height: 5px;
 }
-.negative-margin6 .left-panel-closer div div {
+.negative-margin3b .left-panel-closer div div {
   height: 5px;
   width: 100%;
   background: lightgray;
@@ -229,41 +331,41 @@ textarea {
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
 }
-.negative-margin7 .row {
+.negative-margin3c .row {
   margin-top: 20px;
   overflow: hidden;
 }
-.negative-margin7 .tmp-panel > .panel-content {
+.negative-margin3c .tmp-panel > .panel-content {
   background: lightgray;
   border: 3px solid blue;
   border-radius: 5px;
 }
-.negative-margin7 .left-panel {
+.negative-margin3c .left-panel {
   background: lightgray;
   padding-bottom: 1000px;
   margin-bottom: -1000px;
   border: 3px solid blue;
   border-radius: 5px;
 }
-.negative-margin7 .right-panel > .panel-content {
+.negative-margin3c .right-panel > .panel-content {
   background: lightgray;
   border: 3px solid blue;
   border-radius: 5px;
 }
-.negative-margin7 .right-column .right-panel {
+.negative-margin3c .right-column .right-panel {
   margin-top: 10px;
 }
-.negative-margin7 .right-column .right-panel:first-child {
+.negative-margin3c .right-column .right-panel:first-child {
   margin-top: 0;
 }
-.negative-margin7 .left-panel-closer {
+.negative-margin3c .left-panel-closer {
   margin-top: -5px;
 }
-.negative-margin7 .left-panel-closer div {
+.negative-margin3c .left-panel-closer div {
   background: white;
   height: 5px;
 }
-.negative-margin7 .left-panel-closer div div {
+.negative-margin3c .left-panel-closer div div {
   height: 5px;
   width: 100%;
   background: lightgray;
@@ -273,44 +375,88 @@ textarea {
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
 }
-.negative-margin7 .left-column:hover .left-panel {
+.negative-margin4a .row {
+  margin-top: 20px;
+  overflow: hidden;
+}
+.negative-margin4a .tmp-panel > .panel-content {
+  background: lightgray;
+  border: 3px solid blue;
+  border-radius: 5px;
+}
+.negative-margin4a .left-panel {
+  background: lightgray;
+  padding-bottom: 1000px;
+  margin-bottom: -1000px;
+  border: 3px solid blue;
+  border-radius: 5px;
+}
+.negative-margin4a .right-panel > .panel-content {
+  background: lightgray;
+  border: 3px solid blue;
+  border-radius: 5px;
+}
+.negative-margin4a .right-column .right-panel {
+  margin-top: 10px;
+}
+.negative-margin4a .right-column .right-panel:first-child {
+  margin-top: 0;
+}
+.negative-margin4a .left-panel-closer {
+  margin-top: -5px;
+}
+.negative-margin4a .left-panel-closer div {
+  background: white;
+  height: 5px;
+}
+.negative-margin4a .left-panel-closer div div {
+  height: 5px;
+  width: 100%;
+  background: lightgray;
+  border-bottom: 3px solid blue;
+  border-left: 3px solid blue;
+  border-right: 3px solid blue;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.negative-margin4a .left-column:hover .left-panel {
   background: yellow;
   opacity: 0.5;
   color: blue;
   font-weight: bold;
 }
-.negative-margin8 .row {
+.negative-margin4b .row {
   margin-top: 20px;
   overflow: hidden;
 }
-.negative-margin8 .tmp-panel > .panel-content {
+.negative-margin4b .tmp-panel > .panel-content {
   background: lightgray;
   border: 3px solid blue;
   border-radius: 5px;
 }
-.negative-margin8 .left-panel {
+.negative-margin4b .left-panel {
   background: lightgray;
   padding-bottom: 1000px;
   margin-bottom: -1000px;
   border: 3px solid blue;
   border-radius: 5px;
 }
-.negative-margin8 .right-panel > .panel-content {
+.negative-margin4b .right-panel > .panel-content {
   background: lightgray;
   border: 3px solid blue;
   border-radius: 5px;
 }
-.negative-margin8 .right-column .right-panel {
+.negative-margin4b .right-column .right-panel {
   margin-top: 10px;
 }
-.negative-margin8 .right-column .right-panel:first-child {
+.negative-margin4b .right-column .right-panel:first-child {
   margin-top: 0;
 }
-.negative-margin8 .left-panel-closer {
+.negative-margin4b .left-panel-closer {
   width: 100%;
   background: white;
 }
-.negative-margin8 .left-panel-closer > div {
+.negative-margin4b .left-panel-closer > div {
   height: 5px;
   width: 100%;
   background: lightgray;
@@ -321,59 +467,129 @@ textarea {
   border-bottom-right-radius: 5px;
   margin-top: -4px;
 }
-.negative-margin8 .left-column:hover .left-panel {
+.negative-margin4b .left-column:hover .left-panel {
   background: yellow;
   opacity: 0.5;
   color: blue;
   font-weight: bold;
 }
-.negative-margin8 .left-column:hover ~ .left-panel-closer-column .left-panel-closer > div {
+.negative-margin4b .left-column:hover ~ .left-panel-closer-column .left-panel-closer > div {
   background: yellow;
   opacity: 0.5;
 }
-.negative-margin9 .row {
+.negative-margin5a .thin-line {
+  width: 100%;
+  height: 3px;
+  background: lightgray;
+  display: block;
+  margin-top: 40px;
+}
+.negative-margin5a .row {
   margin-top: 20px;
 }
-.negative-margin9 .tmp-panel > .panel-content {
+.negative-margin5a .tmp-panel > .panel-content {
   background: lightgray;
 }
-.negative-margin9 .left-panel {
+.negative-margin5a .left-panel {
   background: lightgray;
 }
-.negative-margin9 .right-panel > .panel-content {
+.negative-margin5a .right-panel > .panel-content {
   background: lightgray;
 }
-.negative-margin9 .right-column .right-panel {
-  margin-top: 10px;
+.negative-margin5a .right-column .right-panel {
+  margin-top: 30px;
 }
-.negative-margin9 .right-column .right-panel:first-child {
+.negative-margin5a .right-column .right-panel:first-child {
   margin-top: 0;
 }
-.negative-margin9 .drop-hover {
+.negative-margin5a .drop-hover {
   border: 3px solid blue;
 }
-.negative-margin10 .row {
+.negative-margin5b .thin-line {
+  width: 100%;
+  height: 3px;
+  background: lightgray;
+  display: block;
+  margin-top: 40px;
+}
+.negative-margin5b .row {
   margin-top: 20px;
 }
-.negative-margin10 .tmp-panel > .panel-content {
+.negative-margin5b .tmp-panel > .panel-content {
   background: lightgray;
 }
-.negative-margin10 .left-panel {
+.negative-margin5b .left-panel {
   background: lightgray;
 }
-.negative-margin10 .right-panel > .panel-content {
+.negative-margin5b .right-panel > .panel-content {
   background: lightgray;
 }
-.negative-margin10 .right-column .right-panel {
-  margin-top: 10px;
+.negative-margin5b .right-column .right-panel {
+  margin-top: 30px;
 }
-.negative-margin10 .right-column .right-panel:first-child {
+.negative-margin5b .right-column .right-panel:first-child {
   margin-top: 0;
 }
-.negative-margin10 .drop-hover {
+.negative-margin5b .drop-hover {
   box-shadow: 0 0 0 3px blue;
 }
-.negative-margin10 .drop-hover ~ .drop-hover {
+.negative-margin5c .thin-line {
+  width: 100%;
+  height: 3px;
+  background: lightgray;
+  display: block;
+  margin-top: 40px;
+}
+.negative-margin5c .row {
+  margin-top: 20px;
+}
+.negative-margin5c .tmp-panel > .panel-content {
+  background: lightgray;
+}
+.negative-margin5c .left-panel {
+  background: lightgray;
+}
+.negative-margin5c .right-panel > .panel-content {
+  background: lightgray;
+}
+.negative-margin5c .right-column .right-panel {
+  margin-top: 30px;
+}
+.negative-margin5c .right-column .right-panel:first-child {
+  margin-top: 0;
+}
+.negative-margin5c .drop-hover {
+  box-shadow: 0 0 0 3px blue;
+}
+.negative-margin5d .thin-line {
+  width: 100%;
+  height: 3px;
+  background: lightgray;
+  display: block;
+  margin-top: 40px;
+}
+.negative-margin5d .row {
+  margin-top: 20px;
+}
+.negative-margin5d .tmp-panel > .panel-content {
+  background: lightgray;
+}
+.negative-margin5d .left-panel {
+  background: lightgray;
+}
+.negative-margin5d .right-panel > .panel-content {
+  background: lightgray;
+}
+.negative-margin5d .right-column .right-panel {
+  margin-top: 30px;
+}
+.negative-margin5d .right-column .right-panel:first-child {
+  margin-top: 0;
+}
+.negative-margin5d .drop-hover {
+  box-shadow: 0 0 0 3px blue;
+}
+.negative-margin5d .drop-hover ~ .drop-hover {
   box-shadow: initial;
 }
 .css-functions1 .side-window .side-header {

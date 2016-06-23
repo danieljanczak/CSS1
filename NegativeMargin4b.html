@@ -13,7 +13,7 @@
 </head>
 <body>
     <div class="container">
-        <div ng-app="" class="negative-margin4">
+        <div ng-app="" class="negative-margin4b">
             <div ng-repeat="row in [1,2,3,4,5,6]">
                 <div class="row">
                     <div>
@@ -27,6 +27,12 @@
                                 <div class="right-panel"><div class="panel-content" ><textarea>Right {{row}} A</textarea></div></div>
                                 <div class="right-panel" ng-if="row > 1"><div class="panel-content"><textarea>Right {{row}} B</textarea></div></div>
                                 <div class="right-panel" ng-if="row > 3"><div class="panel-content"><textarea>Right {{row}} B</textarea></div></div>
+                            </div>
+                            <div class="clearfix"></div>
+                            <div class="col-xs-6 left-panel-closer-column">
+                                <div class="left-panel-closer">
+                                    <div></div>
+                                </div>
                             </div>
                         </div>
                     </div>

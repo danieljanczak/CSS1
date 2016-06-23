@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap-theme.min.css" >
+    <script src="node_modules/jquery.2/node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="node_modules/angular/angular.min.js"></script>
+    <link href="cssdemo.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div ng-app="" class="negative-margin1d">
+            <div ng-repeat="div in [1,2,3,4]">
+                <div class="row">
+                    <div class="col-xs-12 crossed-line-container">
+                        <div class="crossed-line"></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 row-text">
+                        <span>This is row {{div}}</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

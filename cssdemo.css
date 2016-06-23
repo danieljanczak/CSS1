@@ -376,3 +376,42 @@ textarea {
 .negative-margin10 .drop-hover ~ .drop-hover {
   box-shadow: initial;
 }
+.css-functions1 .side-window .side-header {
+  width: 500px;
+  height: 100px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  background: lightblue;
+}
+.css-functions1 .side-window .side-content {
+  width: 500px;
+  height: 100%;
+  overflow: scroll;
+  position: fixed;
+  top: 100px;
+  left: 0;
+  background: lightgray;
+}
+.css-functions1 .rest-of-window {
+  margin-left: 550px;
+}
+.css-functions2 .middle-bar {
+  position: fixed;
+  left: 50%;
+  top: 0;
+  width: 20px;
+  height: 100%;
+  background: lightblue;
+  border: 1px solid blue;
+}
+.css-functions2 .middle-bar .resizable-content {
+  position: fixed;
+  left: calc(50% + 20px);
+  top: 0;
+  background: lightgreen;
+  border: 1px solid green;
+}
+.css-functions2 .middle-bar .resizable-content textarea {
+  resize: both;
+}

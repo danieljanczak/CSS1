@@ -440,3 +440,52 @@ textarea {
     }
 }
 
+.css-functions1 {
+    .side-window {
+        .side-header {
+            width: 500px;
+            height: 100px;
+            position: fixed;
+            left: 0;
+            top: 0;
+            background: lightblue;
+        }
+        .side-content {
+            width: 500px;
+            height: 100%;
+            //height: ~"calc(100% - 100px)";
+            overflow: scroll;
+            position: fixed;
+            top: 100px;
+            left: 0;
+            background: lightgray;
+        }
+    }
+    .rest-of-window {
+        margin-left: 550px;
+    }
+}
+
+.css-functions2 {
+    .middle-bar {
+        position: fixed;
+        left: 50%;
+        top: 0;
+        width: 20px;
+        height: 100%;
+        background: lightblue;
+        border: 1px solid blue;
+        .resizable-content {
+            position: fixed;
+            left: ~"calc(50% + 20px)";
+            //left: 50%;
+            top: 0;
+            background: lightgreen;
+            border: 1px solid green;
+            //transform: translate(-100%);
+            textarea {
+                resize: both;            
+            }
+        }
+    }
+}

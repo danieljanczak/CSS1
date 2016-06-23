@@ -1,0 +1,52 @@
+.prettycheckbox-resized (@smallChekboxRatio) {
+        .prettycheckbox {
+            display: inline-block;
+            padding: 0;
+            margin: 0;
+            width: 100%;
+            label {
+                display: block;
+                float: left;
+                margin: 0;
+                cursor: pointer;
+            }
+            >a {
+                height: (47px * @smallChekboxRatio);
+                width: (47px * @smallChekboxRatio);
+                display: block;
+                float: left;
+                cursor: pointer;
+                margin: 0;
+                background: url('ico_checkboxes.png');
+                background-size: (564px * @smallChekboxRatio) (47px * @smallChekboxRatio);
+                background-position: 0 0;
+                &:focus {
+                    background-position: -(47px * @smallChekboxRatio) 0;
+                    outline: 0 none;
+                }
+                &.checked {
+                    background-position: -(94px * @smallChekboxRatio) 0;
+                }
+                &.checked:focus {
+                    background-position: -(141px * @smallChekboxRatio) 0;
+                }
+                &.checked.disabled {
+                    background-position: -(235px * @smallChekboxRatio) 0;
+                }
+                &.disabled {
+                    background-position: -(188px * @smallChekboxRatio) 0;
+                }
+            }
+            a.disabled, .prettycheckbox label.disabled, .prettyradio a.disabled, .prettyradio label.disabled {
+                cursor: not-allowed;
+            }
+        }
+    }
+
+.prettycheckbox-small {
+    .prettycheckbox-resized(0.5);
+}
+
+.prettycheckbox-big {
+    .prettycheckbox-resized(2);
+}

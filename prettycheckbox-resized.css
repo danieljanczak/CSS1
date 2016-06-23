@@ -1,0 +1,90 @@
+.prettycheckbox-small .prettycheckbox {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+.prettycheckbox-small .prettycheckbox label {
+  display: block;
+  float: left;
+  margin: 0;
+  cursor: pointer;
+}
+.prettycheckbox-small .prettycheckbox > a {
+  height: 23.5px;
+  width: 23.5px;
+  display: block;
+  float: left;
+  cursor: pointer;
+  margin: 0;
+  background: url('ico_checkboxes.png');
+  background-size: 282px 23.5px;
+  background-position: 0 0;
+}
+.prettycheckbox-small .prettycheckbox > a:focus {
+  background-position: -23.5px 0;
+  outline: 0 none;
+}
+.prettycheckbox-small .prettycheckbox > a.checked {
+  background-position: -47px 0;
+}
+.prettycheckbox-small .prettycheckbox > a.checked:focus {
+  background-position: -70.5px 0;
+}
+.prettycheckbox-small .prettycheckbox > a.checked.disabled {
+  background-position: -117.5px 0;
+}
+.prettycheckbox-small .prettycheckbox > a.disabled {
+  background-position: -94px 0;
+}
+.prettycheckbox-small .prettycheckbox a.disabled,
+.prettycheckbox-small .prettycheckbox .prettycheckbox label.disabled,
+.prettycheckbox-small .prettycheckbox .prettyradio a.disabled,
+.prettycheckbox-small .prettycheckbox .prettyradio label.disabled {
+  cursor: not-allowed;
+}
+.prettycheckbox-big .prettycheckbox {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+.prettycheckbox-big .prettycheckbox label {
+  display: block;
+  float: left;
+  margin: 0;
+  cursor: pointer;
+}
+.prettycheckbox-big .prettycheckbox > a {
+  height: 94px;
+  width: 94px;
+  display: block;
+  float: left;
+  cursor: pointer;
+  margin: 0;
+  background: url('ico_checkboxes.png');
+  background-size: 1128px 94px;
+  background-position: 0 0;
+}
+.prettycheckbox-big .prettycheckbox > a:focus {
+  background-position: -94px 0;
+  outline: 0 none;
+}
+.prettycheckbox-big .prettycheckbox > a.checked {
+  background-position: -188px 0;
+}
+.prettycheckbox-big .prettycheckbox > a.checked:focus {
+  background-position: -282px 0;
+}
+.prettycheckbox-big .prettycheckbox > a.checked.disabled {
+  background-position: -470px 0;
+}
+.prettycheckbox-big .prettycheckbox > a.disabled {
+  background-position: -376px 0;
+}
+.prettycheckbox-big .prettycheckbox a.disabled,
+.prettycheckbox-big .prettycheckbox .prettycheckbox label.disabled,
+.prettycheckbox-big .prettycheckbox .prettyradio a.disabled,
+.prettycheckbox-big .prettycheckbox .prettyradio label.disabled {
+  cursor: not-allowed;
+}

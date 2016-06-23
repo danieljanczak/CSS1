@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap-theme.min.css" >
+    <link rel="stylesheet" href="jquery-ui.min.css" >
+    <script src="node_modules/jquery.2/node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="node_modules/angular/angular.min.js"></script>
+    <script src="jquery-ui.min.js"></script>
+    <link href="pretty-checkable.css" rel="stylesheet">
+    <link href="prettycheckbox-resized.css" rel="stylesheet">
+</head>
+<body>
+    <div style="margin-top: 100px; padding: 100px;">
+        <div>Normal checkbox:
+            <div class="clearfix prettycheckbox">
+                <input type="checkbox" value="true" id="checkbox_8021" name="checkbox_8021" style="display: none;">
+                <a href="#" class="checked" onclick="ch(this)"></a>
+                <label class="prettycheckbox" for="checkbox_8021"></label>
+            </div>
+        </div>
+        <div class="prettycheckbox-small">Custom small checkbox:
+            <div class="clearfix prettycheckbox ">
+                <input type="checkbox" value="true" id="checkbox_8022" name="checkbox_8022" style="display: none;">
+                <a href="#"  onclick="ch(this)"></a>
+                <label class="prettycheckbox" for="checkbox_8022"></label>
+            </div>
+        </div>
+        
+        <div class="prettycheckbox-big">Custom big checkbox:
+            <div class="clearfix prettycheckbox ">
+                <input type="checkbox" value="true" id="checkbox_8023" name="checkbox_8023" style="display: none;">
+                <a href="#"  onclick="ch(this)"></a>
+                <label class="prettycheckbox" for="checkbox_8023"></label>
+            </div>
+        </div>
+        
+    </div>
+    <script>
+        function ch(checkbox) {
+            $(checkbox).toggleClass("checked");
+        }
+    </script>
+</body>
+</html>

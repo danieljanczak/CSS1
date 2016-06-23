@@ -617,7 +617,7 @@ textarea {
 .negative-margin5d .drop-hover ~ .drop-hover {
   box-shadow: initial;
 }
-.css-functions1 .side-window .side-header {
+.css-functions1a .side-window .side-header {
   width: 500px;
   height: 100px;
   position: fixed;
@@ -625,7 +625,7 @@ textarea {
   top: 0;
   background: lightblue;
 }
-.css-functions1 .side-window .side-content {
+.css-functions1a .side-window .side-content {
   width: 500px;
   height: 100%;
   overflow: scroll;
@@ -634,10 +634,30 @@ textarea {
   left: 0;
   background: lightgray;
 }
-.css-functions1 .rest-of-window {
+.css-functions1a .rest-of-window {
   margin-left: 550px;
 }
-.css-functions2 .middle-bar {
+.css-functions1b .side-window .side-header {
+  width: 500px;
+  height: 100px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  background: lightblue;
+}
+.css-functions1b .side-window .side-content {
+  width: 500px;
+  height: calc(100% - 100px);
+  overflow: scroll;
+  position: fixed;
+  top: 100px;
+  left: 0;
+  background: lightgray;
+}
+.css-functions1b .rest-of-window {
+  margin-left: 550px;
+}
+.css-functions2a .middle-bar {
   position: fixed;
   left: 50%;
   top: 0;
@@ -646,13 +666,53 @@ textarea {
   background: lightblue;
   border: 1px solid blue;
 }
-.css-functions2 .middle-bar .resizable-content {
-  position: fixed;
-  left: calc(50% + 20px);
+.css-functions2a .middle-bar .resizable-content {
+  position: relative;
+  left: 20px;
   top: 0;
   background: lightgreen;
   border: 1px solid green;
-}
-.css-functions2 .middle-bar .resizable-content textarea {
   resize: both;
+  overflow: auto;
+  padding: 50px;
+}
+.css-functions2b .middle-bar {
+  position: fixed;
+  left: 50%;
+  top: 0;
+  width: 20px;
+  height: 100%;
+  background: lightblue;
+  border: 1px solid blue;
+}
+.css-functions2b .middle-bar .resizable-content {
+  position: relative;
+  left: -100%;
+  width: 100%;
+  top: 0;
+  background: lightgreen;
+  border: 1px solid green;
+  resize: both;
+  overflow: auto;
+  padding: 50px;
+}
+.css-functions2c .middle-bar {
+  position: fixed;
+  left: 50%;
+  top: 0;
+  width: 20px;
+  height: 100%;
+  background: lightblue;
+  border: 1px solid blue;
+}
+.css-functions2c .middle-bar .resizable-content {
+  position: relative;
+  left: 0;
+  top: 0;
+  background: lightgreen;
+  border: 1px solid green;
+  transform: translate(-100%);
+  resize: both;
+  overflow: auto;
+  padding: 50px;
 }

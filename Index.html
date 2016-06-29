@@ -13,37 +13,51 @@
 </head>
 <body>
 <div style="width: 100%; height: 100%; display: flex; position: absolute">
-        <div style="width:200px; padding: 5px;">
-            <a href="PseudoParentSelector1a.html" target="contents">Pseudo Parent 1a</a><br>
-            <a href="PseudoParentSelector1b.html" target="contents">Pseudo Parent 1b</a><br>
-            <a href="NegativeMargin1a.html" target="contents">Negative Margin 1a</a><br>
-            <a href="NegativeMargin1b.html" target="contents">Negative Margin 1b</a><br>
-            <a href="NegativeMargin1c.html" target="contents">Negative Margin 1c</a><br>
-            <a href="NegativeMargin1d.html" target="contents">Negative Margin 1d</a><br>
-            <a href="NegativeMargin1e.html" target="contents">Negative Margin 1e</a><br>
-            <a href="NegativeMargin2a.html" target="contents">Negative Margin 2a</a><br>
-            <a href="NegativeMargin2b.html" target="contents">Negative Margin 2b</a><br>
-            <a href="NegativeMargin2c.html" target="contents">Negative Margin 2c</a><br>
-            <a href="NegativeMargin2d.html" target="contents">Negative Margin 2d</a><br>
-            <a href="NegativeMargin3a.html" target="contents">Negative Margin 3a</a><br>
-            <a href="NegativeMargin3b.html" target="contents">Negative Margin 3b</a><br>
-            <a href="NegativeMargin3c.html" target="contents">Negative Margin 3c</a><br>
-            <a href="NegativeMargin4a.html" target="contents">Negative Margin 4a</a><br>
-            <a href="NegativeMargin4b.html" target="contents">Negative Margin 4b</a><br>
-            <a href="NegativeMargin5a.html" target="contents">Negative Margin 5a</a><br>
-            <a href="NegativeMargin5b.html" target="contents">Negative Margin 5b</a><br>
-            <a href="NegativeMargin5c.html" target="contents">Negative Margin 5c</a><br>
-            <a href="NegativeMargin5d.html" target="contents">Negative Margin 5d</a><br>
-            <a href="CssFunctions1a.html" target="contents">Css Functions 1a</a><br>
-            <a href="CssFunctions1b.html" target="contents">Css Functions 1b</a><br>
-            <a href="CssFunctions2a.html" target="contents">Css Functions 2a</a><br>
-            <a href="CssFunctions2b.html" target="contents">Css Functions 2b</a><br>
-            <a href="CssFunctions2c.html" target="contents">Css Functions 2c</a><br>
-            <a href="PrettyCheckboxes.html" target="contents">Pretty Checkboxes</a><br>
+        <div style="width:200px; padding: 5px;" ng-app="cssdemoapp" ng-controller="cssdemocontroller">
+            <div ng-repeat="page in pages">
+                <a href="{{page}}.html" target="contents">{{page}}</a><br>
+            </div>
         </div>
-        <div style="width: 100%; height: 100%; background: red">
-    	    <iframe name="contents" style="width:100%; height: 100%" src="PseudoParentSelector1a.html"></iframe>
+        <div style="width: 100%; height: 100%">
+    	    <iframe name="contents" style="width:100%; height: 100%" src="Start1.html"></iframe>
         </div>
 </div>
+<script>
+    var app = angular.module("cssdemoapp",[]);
+    app.controller("cssdemocontroller", function($scope) {
+        $scope.pages = [
+            "Start1",
+            "Start2",
+            "PseudoParentSelector1",
+            "PseudoParentSelector1a",
+            "PseudoParentSelector1b",
+            "NegativeMargin1b",
+            "NegativeMargin1c",
+            "NegativeMargin1d",
+            "NegativeMargin1e",
+            "NegativeMargin2a",
+            "NegativeMargin2b",
+            "NegativeMargin2c",
+            "NegativeMargin2d",
+            "NegativeMargin3a",
+            "NegativeMargin3b",
+            "NegativeMargin3c",
+            "NegativeMargin3d",
+            "NegativeMargin4a",
+            "NegativeMargin4b",
+            "NegativeMargin5a",
+            "NegativeMargin5b",
+            "NegativeMargin5c" ,
+            "NegativeMargin5d" ,
+            "NegativeMargin1a" ,
+            "CssFunctions1a",
+            "CssFunctions1b",
+            "CssFunctions2a",
+            "CssFunctions2b",
+            "CssFunctions2c",
+            "PrettyCheckboxes"
+        ];
+    });
+</script>
 </body>
 </html>

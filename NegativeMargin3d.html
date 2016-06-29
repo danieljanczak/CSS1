@@ -6,47 +6,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap-theme.min.css" >
-    <link rel="stylesheet" href="node_modules/toastr/build/toastr.css" >
     <script src="node_modules/jquery.2/node_modules/jquery/dist/jquery.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="node_modules/angular/angular.min.js"></script>
-    <script src="node_modules/toastr/build/toastr.min.js"></script>
     <link href="cssdemo.css" rel="stylesheet">
 </head>
 <body>
     <div class="container">
-        <div ng-app="" class="pseudo-parent-selector1a">
+        <div ng-app="" class="negative-margin3d">
             <div ng-repeat="row in [1,2,3,4,5,6]">
                 <div class="row">
                     <div>
                         <div>
-                            <div class="col-xs-6 ">
+                            <div class="col-xs-6 left-column">
                                 <div class="left-panel">
-                                    <div class="panel-content">Left {{row}}</div>
+                                    <div class="panel-content"><textarea>Left {{row}}</textarea></div>
                                 </div>
                             </div>
-                            <div class="col-xs-6">
-                                <div class="right-panel"><div class="panel-content">Right {{row}} A</div></div>
-                                <div class="right-panel"><div class="panel-content">Right {{row}} B</div></div>
+                            <div class="col-xs-6 right-column">
+                                <div class="right-panel"><div class="panel-content" ><textarea>Right {{row}} A</textarea></div></div>
+                                <div class="right-panel" ng-if="row > 1"><div class="panel-content"><textarea>Right {{row}} B</textarea></div></div>
+                                <div class="right-panel" ng-if="row > 3"><div class="panel-content"><textarea>Right {{row}} B</textarea></div></div>
                             </div>
                         </div>
+                    </div>
+                </div>
+                <div class="row left-panel-closer">
+                    <div class="col-xs-6">
+                        <div></div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div style="display:hidden" id="info">
-        <h1>I am header</h1>
-        <div class="jumbotron">and more of me</div>
-    </div>
-    <script>
-        $(function() {
-            toastr.options.timeOut = 60000;
-            toastr.options.extendedTimeOut = 60000;
-            //toastr.options.escapeHtml = true;
-
-            toastr.info($("#info").html());
-        });
-    </script>
 </body>
 </html>

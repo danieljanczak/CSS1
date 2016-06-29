@@ -352,6 +352,50 @@ textarea {
                 height: 5px;
                 width:100%; 
                 background:lightgray;
+            }
+        }
+    }
+}
+
+
+.negative-margin3c {
+    .row {
+        margin-top: 20px;
+        overflow: hidden;
+    }
+    .tmp-panel {
+        > .panel-content {
+            background: lightgray;
+            border: 3px solid blue;
+            border-radius: 5px;
+        }
+    }
+    .left-panel {
+        background: lightgray;
+        padding-bottom: 1000px;
+        margin-bottom: -1000px;
+        border: 3px solid blue;
+        border-radius: 5px;
+    }
+    .right-panel {
+        .tmp-panel;
+    }
+    .right-column {
+        .right-panel {
+            margin-top: 10px;
+            &:first-child {
+                margin-top: 0;
+            }
+        } 
+    }
+    .left-panel-closer {
+        div {
+            background: white;
+            height: 5px;
+            div {
+                height: 5px;
+                width:100%; 
+                background:lightgray;
                 border-bottom: 3px solid blue;
                 border-left: 3px solid blue;
                 border-right: 3px solid blue;
@@ -362,8 +406,7 @@ textarea {
     }
 }
 
-
-.negative-margin3c {
+.negative-margin3d {
     .row {
         margin-top: 20px;
         overflow: hidden;
@@ -601,8 +644,6 @@ textarea {
 .negative-margin5d {
     .negative-margin5;
 
-    //.drop-hover:first-of-type {
-    //.drop-hover:nth-of-type(1) {
     .drop-hover {
         box-shadow: 0 0 0 3px blue;
     }

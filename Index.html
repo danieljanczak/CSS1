@@ -14,8 +14,8 @@
 <body>
 <div style="width: 100%; height: 100%; display: flex; position: absolute">
         <div style="width:200px; padding: 5px;" ng-app="cssdemoapp" ng-controller="cssdemocontroller">
-            <div ng-repeat="page in pages">
-                <a href="{{page}}.html" target="contents">{{page}}</a><br>
+            <div ng-repeat="page in pages" ng-class="{'selected': page === selectedPage}">{{selected}}
+                <a href="{{page}}.html" target="contents" ng-click="selectPage(page)">{{page}}</a><br>
             </div>
         </div>
         <div style="width: 100%; height: 100%">
@@ -25,20 +25,27 @@
 <script>
     var app = angular.module("cssdemoapp",[]);
     app.controller("cssdemocontroller", function($scope) {
+        $scope.selectedPage = "Start1";
+        $scope.selectPage = function(page) {$scope.selectedPage = page;};
         $scope.pages = [
             "Start1",
             "Start2",
             "PseudoParentSelector1",
             "PseudoParentSelector1a",
             "PseudoParentSelector1b",
+            "PseudoParentSelector1c",
+            "NegativeMargin1",
+            "NegativeMargin1a",
             "NegativeMargin1b",
             "NegativeMargin1c",
             "NegativeMargin1d",
             "NegativeMargin1e",
+            "NegativeMargin2",
             "NegativeMargin2a",
             "NegativeMargin2b",
             "NegativeMargin2c",
             "NegativeMargin2d",
+            "NegativeMargin3",
             "NegativeMargin3a",
             "NegativeMargin3b",
             "NegativeMargin3c",
@@ -49,7 +56,6 @@
             "NegativeMargin5b",
             "NegativeMargin5c" ,
             "NegativeMargin5d" ,
-            "NegativeMargin1a" ,
             "CssFunctions1a",
             "CssFunctions1b",
             "CssFunctions2a",

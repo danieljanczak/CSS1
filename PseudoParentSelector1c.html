@@ -16,20 +16,20 @@
 </head>
 <body>
     <div class="container">
-        <div ng-app="" class="negative-margin2a">
+        <div ng-app="" class="pseudo-parent-selector1c">
             <div ng-repeat="row in [1,2,3,4,5,6]">
                 <div class="row">
                     <div>
                         <div>
-                            <div class="col-xs-6 left-column">
+                            <div class="col-xs-6 ">
                                 <div class="left-panel">
-                                    <div class="panel-content"><textarea>Left {{row}}</textarea></div>
+                                    <div class="panel-content">Left {{row}}</div>
                                 </div>
+                                <div class="right-panel-selector"></div>
                             </div>
-                            <div class="col-xs-6 right-column">
-                                <div class="right-panel"><div class="panel-content" ><textarea>Right {{row}} A</textarea></div></div>
-                                <div class="right-panel" ng-if="row > 1"><div class="panel-content"><textarea>Right {{row}} B</textarea></div></div>
-                                <div class="right-panel" ng-if="row > 3"><div class="panel-content"><textarea>Right {{row}} B</textarea></div></div>
+                            <div class="col-xs-6">
+                                <div class="right-panel"><div class="panel-content">Right {{row}} A</div></div>
+                                <div class="right-panel"><div class="panel-content">Right {{row}} B</div></div>
                             </div>
                         </div>
                     </div>
@@ -38,12 +38,19 @@
         </div>
     </div>
     <div style="display:hidden" id="info">
-        <h2>What's the first thing that comes to your mind? Is it this:
+        <h2>Now let's make its position absolute, expand it to 200% width and height and for a good measure send it to the background.</h2>
+        <h2>In our case it's 
             <pre>
-                height: 100%;
+                .left-panel:hover + .right-panel-selector {
+                    width: 200%;
+                    height: 200%;
+                    z-index: -1;
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                }
             </pre>
         </h2>
-        <h2>No, it's not going to work.</h2>
     </div>
 </body>
 </html>

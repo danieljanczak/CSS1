@@ -6,10 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap-theme.min.css" >
+    <link rel="stylesheet" href="node_modules/toastr/build/toastr.css" >
     <script src="node_modules/jquery.2/node_modules/jquery/dist/jquery.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="node_modules/angular/angular.min.js"></script>
+    <script src="node_modules/toastr/build/toastr.min.js"></script>
     <link href="cssdemo.css" rel="stylesheet">
+    <script src="cssdemo.js"></script>
 </head>
 <body>
     <div class="container">
@@ -39,6 +42,20 @@
                 </div>
             </div>
         </div>
+    </div>
+    <div style="display:hidden" id="info">
+        <h2>We can't really do anything as long as elements are in different rows</h2>
+        <h2>But we can move them into the same row and display after clearfix</h2>
+        <h2>Now that they are siblings we can use selector of preceding element to modify the style of closing element</h2>
+        <pre>
+            :hover {
+                ...
+                & ~ .left-panel-closer {
+                    background: yellow;
+                    opacity: 0.5;
+                }
+            }
+        </pre>
     </div>
 </body>
 </html>

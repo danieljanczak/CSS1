@@ -38,8 +38,12 @@
         </div>
     </div>
     <div style="display:hidden" id="info">
-        <h2>In this example, we have rows with 1 element in left column and 2 elements in right column.</h2>
-        <h2>When element on the left side gets additional class (could be from drag & drop, in our simplified example just mouse :hover) we would like to select all elements in the row. </h2>
+        <h2>Now after we extended the bottom padding we want all following elements back whre they were originally.</h2>
+        <h2>Negative margin to the rescue! Let's make it the exact opposite of padding</h2>
+        <pre>
+            margin-bottom: -1000px;
+        </pre>
+        <h2>It would be nice if it wasn't for the background colour going outside of the row</h2>
     </div>
 </body>
 </html>

@@ -6,26 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap-theme.min.css" >
+    <link rel="stylesheet" href="node_modules/toastr/build/toastr.css" >
     <script src="node_modules/jquery.2/node_modules/jquery/dist/jquery.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="node_modules/angular/angular.min.js"></script>
+    <script src="node_modules/toastr/build/toastr.min.js"></script>
+    <script src="cssdemo.js"></script>
     <link href="cssdemo.css" rel="stylesheet">
 </head>
 <body>
-    <div class="container">
-        <div class="jumbotron">
-            <h1>Problem 2: UI styling that doesn't exist</h1>
-        </div>
-        <h2>
-            <ul>
-                <li>Sometimes we have to apply UI styles that do not exist</li>
-                <li>In this example we have to create a header with dashed line in the middle on both sides</li>
-            </ul>
-            <br>
-            <b>Solution</b>: 
-            <ul>
-                <li>We can overlap elements</li>
-            </ul>
+    <div style="display:hidden" id="info">
+        <h2>What if we need to keep nesting elements inside?</h2>
+        <h2>Easy, all sizes are relative
+            <pre>
+                - your element has whatever size it needs
+                - inside element jumps to 200% width
+                - next inside element is 50% width = the same as original
+                - keep nesting
+            </pre>
         </h2>
     </div>
 </body>

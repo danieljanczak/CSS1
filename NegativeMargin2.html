@@ -13,9 +13,24 @@
 </head>
 <body>
     <div class="container">
-        <div class="jumbotron"><h1>Problem 3: vertical size of DIVs in Bootstrap rows</h1></div>
-        <h2>So, we have a Bootstrap row with a few columns.</h2>
-        <h2>We don't know the number of the size of elements, but we would like to have DIV which takes the whole height of the row</h2> 
+        <div class="jumbotron">
+            <h1>Problem 3: vertical size of DIVs in Bootstrap rows</h1>
+        </div>
+        <h2>
+            <ul>
+                <li>A very common scenario: Bootstrap row with a few columns</li>
+                <li>We would like elements in all columns to have the same height</li>
+                <li>As you may have seen in the past, height: 100% is not an answer</li>
+                <li>And no, we don't want to use JS to calculate element sizes</li>
+            </ul>
+            <br>
+            <b>Solution</b>: 
+            <ul>
+                <li>Expand the padding</li>
+                <li>Use negative margins to leave the following elements where they are</li>
+                <li>Make overflowing padding invisible</li>
+            </ul>
+        </h2>
     </div>
 </body>
 </html>

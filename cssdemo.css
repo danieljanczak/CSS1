@@ -599,119 +599,119 @@ pre {
 .negative-margin5 .right-column .right-panel:first-child {
   margin-top: 0;
 }
-.negative-margin5a .thin-line {
+.borders1a .thin-line {
   width: 100%;
   height: 3px;
   background: lightgray;
   display: block;
   margin-top: 40px;
 }
-.negative-margin5a .row {
+.borders1a .row {
   margin-top: 20px;
 }
-.negative-margin5a .tmp-panel > .panel-content {
+.borders1a .tmp-panel > .panel-content {
   background: lightgray;
 }
-.negative-margin5a .left-panel {
+.borders1a .left-panel {
   background: lightgray;
 }
-.negative-margin5a .right-panel > .panel-content {
+.borders1a .right-panel > .panel-content {
   background: lightgray;
 }
-.negative-margin5a .right-column .right-panel {
+.borders1a .right-column .right-panel {
   margin-top: 30px;
 }
-.negative-margin5a .right-column .right-panel:first-child {
+.borders1a .right-column .right-panel:first-child {
   margin-top: 0;
 }
-.negative-margin5a .drop-hover {
+.borders1a .drop-hover {
   border: 3px solid blue;
 }
-.negative-margin5b .thin-line {
+.borders1b .thin-line {
   width: 100%;
   height: 3px;
   background: lightgray;
   display: block;
   margin-top: 40px;
 }
-.negative-margin5b .row {
+.borders1b .row {
   margin-top: 20px;
 }
-.negative-margin5b .tmp-panel > .panel-content {
+.borders1b .tmp-panel > .panel-content {
   background: lightgray;
 }
-.negative-margin5b .left-panel {
+.borders1b .left-panel {
   background: lightgray;
 }
-.negative-margin5b .right-panel > .panel-content {
+.borders1b .right-panel > .panel-content {
   background: lightgray;
 }
-.negative-margin5b .right-column .right-panel {
+.borders1b .right-column .right-panel {
   margin-top: 30px;
 }
-.negative-margin5b .right-column .right-panel:first-child {
+.borders1b .right-column .right-panel:first-child {
   margin-top: 0;
 }
-.negative-margin5b .drop-hover {
+.borders1b .drop-hover {
   box-shadow: 0 0 0 3px blue;
 }
-.negative-margin5c .thin-line {
+.first-element1a .thin-line {
   width: 100%;
   height: 3px;
   background: lightgray;
   display: block;
   margin-top: 40px;
 }
-.negative-margin5c .row {
+.first-element1a .row {
   margin-top: 20px;
 }
-.negative-margin5c .tmp-panel > .panel-content {
+.first-element1a .tmp-panel > .panel-content {
   background: lightgray;
 }
-.negative-margin5c .left-panel {
+.first-element1a .left-panel {
   background: lightgray;
 }
-.negative-margin5c .right-panel > .panel-content {
+.first-element1a .right-panel > .panel-content {
   background: lightgray;
 }
-.negative-margin5c .right-column .right-panel {
+.first-element1a .right-column .right-panel {
   margin-top: 30px;
 }
-.negative-margin5c .right-column .right-panel:first-child {
+.first-element1a .right-column .right-panel:first-child {
   margin-top: 0;
 }
-.negative-margin5c .drop-hover {
+.first-element1a .drop-hover {
   box-shadow: 0 0 0 3px blue;
 }
-.negative-margin5d .thin-line {
+.first-element1b .thin-line {
   width: 100%;
   height: 3px;
   background: lightgray;
   display: block;
   margin-top: 40px;
 }
-.negative-margin5d .row {
+.first-element1b .row {
   margin-top: 20px;
 }
-.negative-margin5d .tmp-panel > .panel-content {
+.first-element1b .tmp-panel > .panel-content {
   background: lightgray;
 }
-.negative-margin5d .left-panel {
+.first-element1b .left-panel {
   background: lightgray;
 }
-.negative-margin5d .right-panel > .panel-content {
+.first-element1b .right-panel > .panel-content {
   background: lightgray;
 }
-.negative-margin5d .right-column .right-panel {
+.first-element1b .right-column .right-panel {
   margin-top: 30px;
 }
-.negative-margin5d .right-column .right-panel:first-child {
+.first-element1b .right-column .right-panel:first-child {
   margin-top: 0;
 }
-.negative-margin5d .drop-hover {
+.first-element1b .drop-hover {
   box-shadow: 0 0 0 3px blue;
 }
-.negative-margin5d .drop-hover ~ .drop-hover {
+.first-element1b .drop-hover ~ .drop-hover {
   box-shadow: initial;
 }
 .css-functions1a .side-window .side-header {

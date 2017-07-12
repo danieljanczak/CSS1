@@ -6,12 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap-theme.min.css" >
+    <link rel="stylesheet" href="node_modules/toastr/build/toastr.css" >
     <link rel="stylesheet" href="jquery-ui.min.css" >
     <script src="node_modules/jquery.2/node_modules/jquery/dist/jquery.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="node_modules/angular/angular.min.js"></script>
     <script src="jquery-ui.min.js"></script>
+    <script src="node_modules/toastr/build/toastr.min.js"></script>
     <link href="cssdemo.css" rel="stylesheet">
+    <script src="cssdemo.js"></script>
 </head>
 <body>
     <div class="container first-element1a">
@@ -60,6 +63,16 @@
         });
         
     </script>
+    <div style="display:hidden" id="info">
+        <h2>Let's add a simple modification - highlight element on :hover</h2>
+        <pre>
+            :hover {
+                background: yellow;
+                opacity: 0.5;
+            }
+        </pre>
+        <h2>It seems OK at first, but please note that the bottom of element is not highlighted</h2>
+    </div>
 </body>
 
 </html>

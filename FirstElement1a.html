@@ -64,14 +64,10 @@
         
     </script>
     <div style="display:hidden" id="info">
-        <h2>Let's add a simple modification - highlight element on :hover</h2>
-        <pre>
-            :hover {
-                background: yellow;
-                opacity: 0.5;
-            }
-        </pre>
-        <h2>It seems OK at first, but please note that the bottom of element is not highlighted</h2>
+        <h2>Previous example seemed OK, but please note that the default drop zone is only selected by the center of dragged element</h2>
+        <h2>This works OK when your drop zone is big, but when it's small you have to be very precise - too much for many users</h2>
+        <h2>We can change the drag&amp;drop settings to use the whole area of dragged element and then react only on the first drop</h2>
+        <h2>JS changes are very easy, but what to do about indicated drop targets - you need the first element with a specific class?</h2>
     </div>
 </body>
 

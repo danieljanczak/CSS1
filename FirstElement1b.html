@@ -64,14 +64,16 @@
         
     </script>
     <div style="display:hidden" id="info">
-        <h2>Let's add a simple modification - highlight element on :hover</h2>
+        <h2>What we can do is to apply new style to each class - and delete the style for each class following the same class</h2>
         <pre>
-            :hover {
-                background: yellow;
-                opacity: 0.5;
+            .drop-hover {
+                box-shadow: 0 0 0 3px blue;
+            }
+            .drop-hover ~ .drop-hover {
+                box-shadow: initial;
             }
         </pre>
-        <h2>It seems OK at first, but please note that the bottom of element is not highlighted</h2>
+        <h2>This effectively gives us the missing first-of-class selector</h2>
     </div>
 </body>
 

@@ -6,12 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap-theme.min.css" >
+    <link rel="stylesheet" href="node_modules/toastr/build/toastr.css" >
     <link rel="stylesheet" href="jquery-ui.min.css" >
     <script src="node_modules/jquery.2/node_modules/jquery/dist/jquery.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="node_modules/angular/angular.min.js"></script>
     <script src="jquery-ui.min.js"></script>
+    <script src="node_modules/toastr/build/toastr.min.js"></script>
     <link href="cssdemo.css" rel="stylesheet">
+    <script src="cssdemo.js"></script>
 </head>
 <body>
     <div class="container css-functions2c">
@@ -31,5 +34,15 @@
         });
         
     </script>
+    <div style="display:hidden" id="info">
+        <h2>Fortunately we can use the "tranform" and "translate" function to move element by itself</h2>
+        <pre>
+            .resizable-content {
+                position: relative;
+                left: 0;
+                transform: translate(-100%);
+            }
+        </pre>
+    </div>
 </body>
 </html>

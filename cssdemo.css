@@ -11,6 +11,9 @@ pre {
   opacity: 1;
   background: white;
 }
+.glyphicon {
+  opacity: 0.1;
+}
 #info {
   display: none;
 }

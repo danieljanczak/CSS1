@@ -6,9 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap-theme.min.css" >
+    <link rel="stylesheet" href="node_modules/toastr/build/toastr.css" >
     <script src="node_modules/jquery.2/node_modules/jquery/dist/jquery.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="node_modules/angular/angular.min.js"></script>
+    <script src="node_modules/toastr/build/toastr.min.js"></script>
+    <script src="cssdemo.js"></script>
     <link href="cssdemo.css" rel="stylesheet">
 </head>
 <body>
@@ -30,6 +33,17 @@
                 </div>
             </div>
         </div>
+    </div>
+    <div style="display:hidden" id="info">
+        <h2>At the top of a page we have a header with fixed height</h2>
+        <pre>
+            .side-header {
+                height: 100px;
+                position: fixed;
+            }
+        </pre>
+        <h2>At the bottom we would like to have an element which will take the rest of the screen</h2>
+        <h2>But please note that the height: 100% equals 100% of the screen, not of the remaining space</h2>
     </div>
 </body>
 </html>

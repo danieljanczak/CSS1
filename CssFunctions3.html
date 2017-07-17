@@ -14,18 +14,19 @@
 <body>
     <div class="container">
         <div class="jumbotron">
-            <h1>Problem: Applying borders dynamically</h1>
+            <h1>Problem: Expanding element nested inside another element</h1>
         </div>
         <h2>
             <ul>
-                <li>Applying borders dynamically is easy...</li>
-                <li>... except that it affects the position of other elements</li>
+                <li>We usually nest elements inside other elements</li>
+                <li>This is how HTML in general and many frameworks work, including Bootstrap</li>
+                <li>What happens if we suddenly need to expand to the edge of the screen or the whole screen?</li>
             </ul>
             <br>
             <b>Solution</b>: 
             <ul>
-                <li>You could play with margins, padding and border size to preserve the layout - that's a bit of work</li>
-                <li>Or you could use shadows instead of borders</li>
+                <li>As you may guess, width: 100% is not answer</li>
+                <li>CSS functions and mixing units are the answer</li>
             </ul>
         </h2>
     </div>

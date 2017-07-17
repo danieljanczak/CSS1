@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap-theme.min.css" >
+    <link rel="stylesheet" href="node_modules/toastr/build/toastr.css" >
+    <script src="node_modules/jquery.2/node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="node_modules/angular/angular.min.js"></script>
+    <script src="node_modules/toastr/build/toastr.min.js"></script>
+    <script src="cssdemo.js"></script>
+    <link href="cssdemo.css" rel="stylesheet">
+</head>
+<body>
+    <div class="page-header"><h2>Whole page header Whole page header Whole page header</h2></div>
+    <div class="container">
+        <div ng-app="" class="css-functions3b">
+            <div class="row">
+                <div class="col-xs-2"><h2>Left panel</h2></div>
+                <div class="col-xs-10">
+                    <div class="tab-header"><h2>Here will be tabs over the content<h2></div>
+                    <p>Some content</p>
+                    <p>Some content</p>
+                    <p>Some content</p>
+                    <p>Some content</p>
+                    <p>Some content</p>
+                    <p>Some content</p>
+                    <p>Some content</p>
+                    <p>Some content</p>
+                    <p>Some content</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style="display:hidden" id="info">
+        <h2>Just like in one of the previous examples, we could use the "Calc" function and mix units</h2>
+        <h2>This time our friend is the "vw" unit - 100vw equals the width of the viewport</h2>
+        <h2>So we are inside the 10/12 part of an element positioned in the middle of the screen...</h2>
+        <pre>
+            .tab-header {
+                width: ~"calc((100vw - 120%) / 2 + 100%)";
+            }
+        </pre>
+        <h2>If you think that's great - thank you! Now look at the tiny horizontal scrollbar...</h2>
+    </div>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap-theme.min.css" >
+    <link rel="stylesheet" href="node_modules/toastr/build/toastr.css" >
+    <script src="node_modules/jquery.2/node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="node_modules/angular/angular.min.js"></script>
+    <script src="node_modules/toastr/build/toastr.min.js"></script>
+    <script src="cssdemo.js"></script>
+    <link href="cssdemo.css" rel="stylesheet">
+</head>
+<body>
+    <div class="page-header"><h2>Whole page header Whole page header Whole page header</h2></div>
+    <div class="container">
+        <div ng-app="" class="css-functions3a">
+            <div class="row">
+                <div class="col-xs-2"><h2>Left panel</h2></div>
+                <div class="col-xs-10">
+                    <div class="tab-header"><h2>Here will be tabs over the content<h2></div>
+                    <p>Some content</p>
+                    <p>Some content</p>
+                    <p>Some content</p>
+                    <p>Some content</p>
+                    <p>Some content</p>
+                    <p>Some content</p>
+                    <p>Some content</p>
+                    <p>Some content</p>
+                    <p>Some content</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style="display:hidden" id="info">
+        <h2>Here we have a reasonably typical scenario - full page header, some panel on the left and content on the right</h2>
+        <h2>It all works fine as long as content headers fit inside the existing grid</h2>
+        <h2>What happens when our desired UX element (for example tabs) should expand to the egde of the screen?</h2>
+        <h2>Maybe the CSS below? No, of course not. This is not the 100% we are looking for.</h2>
+        <pre>
+            .tab-header {
+                width: 100%;
+            }
+        </pre>
+    </div>
+</body>
+</html>

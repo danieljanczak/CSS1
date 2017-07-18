@@ -846,3 +846,42 @@ pre {
         h2 { margin-top: 0; }
     }
 }
+
+.less1a,.less1b,.less1c,.less1d {
+    margin-top: 100px;
+    .row {
+        margin: 0;
+    }
+    div {
+        padding: 0;
+        box-shadow: 0 0 1px 0 lightgray inset;
+    }
+    input, button {
+        width: 100%;
+    }
+    b {
+        color: green;
+        margin-bottom: 10px;
+        display: block;
+    }
+}
+
+.less1b,.less1c,.less1d {
+    @grid-column-override-count: 11;
+    .grid-column-override-func (@grid-column-override-count) when (@grid-column-override-count > 1) {
+        .grid-col-override-@{grid-column-override-count} {
+            .col-xs-override(@cols) when (@cols > 0){
+                .col-xs-@{cols} {
+                    width: (@cols/@grid-column-override-count*100%);
+                }
+                .col-xs-offset-@{cols} {
+                    margin-left: (@cols/@grid-column-override-count*100%);
+                }
+                .col-xs-override(@cols - 1);
+            }
+            .col-xs-override(@grid-column-override-count);
+        }
+        .grid-column-override-func(@grid-column-override-count - 1);
+    }
+    .grid-column-override-func(@grid-column-override-count);
+}

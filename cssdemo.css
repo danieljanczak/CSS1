@@ -870,3 +870,690 @@ pre {
 .css-functions3d .tab-header h2 {
   margin-top: 0;
 }
+.less1a,
+.less1b,
+.less1c,
+.less1d {
+  margin-top: 100px;
+}
+.less1a .row,
+.less1b .row,
+.less1c .row,
+.less1d .row {
+  margin: 0;
+}
+.less1a div,
+.less1b div,
+.less1c div,
+.less1d div {
+  padding: 0;
+  box-shadow: 0 0 1px 0 lightgray inset;
+}
+.less1a input,
+.less1b input,
+.less1c input,
+.less1d input,
+.less1a button,
+.less1b button,
+.less1c button,
+.less1d button {
+  width: 100%;
+}
+.less1a b,
+.less1b b,
+.less1c b,
+.less1d b {
+  color: green;
+  margin-bottom: 10px;
+  display: block;
+}
+.less1b .grid-col-override-11 .col-xs-11,
+.less1c .grid-col-override-11 .col-xs-11,
+.less1d .grid-col-override-11 .col-xs-11 {
+  width: 100%;
+}
+.less1b .grid-col-override-11 .col-xs-offset-11,
+.less1c .grid-col-override-11 .col-xs-offset-11,
+.less1d .grid-col-override-11 .col-xs-offset-11 {
+  margin-left: 100%;
+}
+.less1b .grid-col-override-11 .col-xs-10,
+.less1c .grid-col-override-11 .col-xs-10,
+.less1d .grid-col-override-11 .col-xs-10 {
+  width: 90.90909091%;
+}
+.less1b .grid-col-override-11 .col-xs-offset-10,
+.less1c .grid-col-override-11 .col-xs-offset-10,
+.less1d .grid-col-override-11 .col-xs-offset-10 {
+  margin-left: 90.90909091%;
+}
+.less1b .grid-col-override-11 .col-xs-9,
+.less1c .grid-col-override-11 .col-xs-9,
+.less1d .grid-col-override-11 .col-xs-9 {
+  width: 81.81818182%;
+}
+.less1b .grid-col-override-11 .col-xs-offset-9,
+.less1c .grid-col-override-11 .col-xs-offset-9,
+.less1d .grid-col-override-11 .col-xs-offset-9 {
+  margin-left: 81.81818182%;
+}
+.less1b .grid-col-override-11 .col-xs-8,
+.less1c .grid-col-override-11 .col-xs-8,
+.less1d .grid-col-override-11 .col-xs-8 {
+  width: 72.72727273%;
+}
+.less1b .grid-col-override-11 .col-xs-offset-8,
+.less1c .grid-col-override-11 .col-xs-offset-8,
+.less1d .grid-col-override-11 .col-xs-offset-8 {
+  margin-left: 72.72727273%;
+}
+.less1b .grid-col-override-11 .col-xs-7,
+.less1c .grid-col-override-11 .col-xs-7,
+.less1d .grid-col-override-11 .col-xs-7 {
+  width: 63.63636364%;
+}
+.less1b .grid-col-override-11 .col-xs-offset-7,
+.less1c .grid-col-override-11 .col-xs-offset-7,
+.less1d .grid-col-override-11 .col-xs-offset-7 {
+  margin-left: 63.63636364%;
+}
+.less1b .grid-col-override-11 .col-xs-6,
+.less1c .grid-col-override-11 .col-xs-6,
+.less1d .grid-col-override-11 .col-xs-6 {
+  width: 54.54545455%;
+}
+.less1b .grid-col-override-11 .col-xs-offset-6,
+.less1c .grid-col-override-11 .col-xs-offset-6,
+.less1d .grid-col-override-11 .col-xs-offset-6 {
+  margin-left: 54.54545455%;
+}
+.less1b .grid-col-override-11 .col-xs-5,
+.less1c .grid-col-override-11 .col-xs-5,
+.less1d .grid-col-override-11 .col-xs-5 {
+  width: 45.45454545%;
+}
+.less1b .grid-col-override-11 .col-xs-offset-5,
+.less1c .grid-col-override-11 .col-xs-offset-5,
+.less1d .grid-col-override-11 .col-xs-offset-5 {
+  margin-left: 45.45454545%;
+}
+.less1b .grid-col-override-11 .col-xs-4,
+.less1c .grid-col-override-11 .col-xs-4,
+.less1d .grid-col-override-11 .col-xs-4 {
+  width: 36.36363636%;
+}
+.less1b .grid-col-override-11 .col-xs-offset-4,
+.less1c .grid-col-override-11 .col-xs-offset-4,
+.less1d .grid-col-override-11 .col-xs-offset-4 {
+  margin-left: 36.36363636%;
+}
+.less1b .grid-col-override-11 .col-xs-3,
+.less1c .grid-col-override-11 .col-xs-3,
+.less1d .grid-col-override-11 .col-xs-3 {
+  width: 27.27272727%;
+}
+.less1b .grid-col-override-11 .col-xs-offset-3,
+.less1c .grid-col-override-11 .col-xs-offset-3,
+.less1d .grid-col-override-11 .col-xs-offset-3 {
+  margin-left: 27.27272727%;
+}
+.less1b .grid-col-override-11 .col-xs-2,
+.less1c .grid-col-override-11 .col-xs-2,
+.less1d .grid-col-override-11 .col-xs-2 {
+  width: 18.18181818%;
+}
+.less1b .grid-col-override-11 .col-xs-offset-2,
+.less1c .grid-col-override-11 .col-xs-offset-2,
+.less1d .grid-col-override-11 .col-xs-offset-2 {
+  margin-left: 18.18181818%;
+}
+.less1b .grid-col-override-11 .col-xs-1,
+.less1c .grid-col-override-11 .col-xs-1,
+.less1d .grid-col-override-11 .col-xs-1 {
+  width: 9.09090909%;
+}
+.less1b .grid-col-override-11 .col-xs-offset-1,
+.less1c .grid-col-override-11 .col-xs-offset-1,
+.less1d .grid-col-override-11 .col-xs-offset-1 {
+  margin-left: 9.09090909%;
+}
+.less1b .grid-col-override-10 .col-xs-10,
+.less1c .grid-col-override-10 .col-xs-10,
+.less1d .grid-col-override-10 .col-xs-10 {
+  width: 100%;
+}
+.less1b .grid-col-override-10 .col-xs-offset-10,
+.less1c .grid-col-override-10 .col-xs-offset-10,
+.less1d .grid-col-override-10 .col-xs-offset-10 {
+  margin-left: 100%;
+}
+.less1b .grid-col-override-10 .col-xs-9,
+.less1c .grid-col-override-10 .col-xs-9,
+.less1d .grid-col-override-10 .col-xs-9 {
+  width: 90%;
+}
+.less1b .grid-col-override-10 .col-xs-offset-9,
+.less1c .grid-col-override-10 .col-xs-offset-9,
+.less1d .grid-col-override-10 .col-xs-offset-9 {
+  margin-left: 90%;
+}
+.less1b .grid-col-override-10 .col-xs-8,
+.less1c .grid-col-override-10 .col-xs-8,
+.less1d .grid-col-override-10 .col-xs-8 {
+  width: 80%;
+}
+.less1b .grid-col-override-10 .col-xs-offset-8,
+.less1c .grid-col-override-10 .col-xs-offset-8,
+.less1d .grid-col-override-10 .col-xs-offset-8 {
+  margin-left: 80%;
+}
+.less1b .grid-col-override-10 .col-xs-7,
+.less1c .grid-col-override-10 .col-xs-7,
+.less1d .grid-col-override-10 .col-xs-7 {
+  width: 70%;
+}
+.less1b .grid-col-override-10 .col-xs-offset-7,
+.less1c .grid-col-override-10 .col-xs-offset-7,
+.less1d .grid-col-override-10 .col-xs-offset-7 {
+  margin-left: 70%;
+}
+.less1b .grid-col-override-10 .col-xs-6,
+.less1c .grid-col-override-10 .col-xs-6,
+.less1d .grid-col-override-10 .col-xs-6 {
+  width: 60%;
+}
+.less1b .grid-col-override-10 .col-xs-offset-6,
+.less1c .grid-col-override-10 .col-xs-offset-6,
+.less1d .grid-col-override-10 .col-xs-offset-6 {
+  margin-left: 60%;
+}
+.less1b .grid-col-override-10 .col-xs-5,
+.less1c .grid-col-override-10 .col-xs-5,
+.less1d .grid-col-override-10 .col-xs-5 {
+  width: 50%;
+}
+.less1b .grid-col-override-10 .col-xs-offset-5,
+.less1c .grid-col-override-10 .col-xs-offset-5,
+.less1d .grid-col-override-10 .col-xs-offset-5 {
+  margin-left: 50%;
+}
+.less1b .grid-col-override-10 .col-xs-4,
+.less1c .grid-col-override-10 .col-xs-4,
+.less1d .grid-col-override-10 .col-xs-4 {
+  width: 40%;
+}
+.less1b .grid-col-override-10 .col-xs-offset-4,
+.less1c .grid-col-override-10 .col-xs-offset-4,
+.less1d .grid-col-override-10 .col-xs-offset-4 {
+  margin-left: 40%;
+}
+.less1b .grid-col-override-10 .col-xs-3,
+.less1c .grid-col-override-10 .col-xs-3,
+.less1d .grid-col-override-10 .col-xs-3 {
+  width: 30%;
+}
+.less1b .grid-col-override-10 .col-xs-offset-3,
+.less1c .grid-col-override-10 .col-xs-offset-3,
+.less1d .grid-col-override-10 .col-xs-offset-3 {
+  margin-left: 30%;
+}
+.less1b .grid-col-override-10 .col-xs-2,
+.less1c .grid-col-override-10 .col-xs-2,
+.less1d .grid-col-override-10 .col-xs-2 {
+  width: 20%;
+}
+.less1b .grid-col-override-10 .col-xs-offset-2,
+.less1c .grid-col-override-10 .col-xs-offset-2,
+.less1d .grid-col-override-10 .col-xs-offset-2 {
+  margin-left: 20%;
+}
+.less1b .grid-col-override-10 .col-xs-1,
+.less1c .grid-col-override-10 .col-xs-1,
+.less1d .grid-col-override-10 .col-xs-1 {
+  width: 10%;
+}
+.less1b .grid-col-override-10 .col-xs-offset-1,
+.less1c .grid-col-override-10 .col-xs-offset-1,
+.less1d .grid-col-override-10 .col-xs-offset-1 {
+  margin-left: 10%;
+}
+.less1b .grid-col-override-9 .col-xs-9,
+.less1c .grid-col-override-9 .col-xs-9,
+.less1d .grid-col-override-9 .col-xs-9 {
+  width: 100%;
+}
+.less1b .grid-col-override-9 .col-xs-offset-9,
+.less1c .grid-col-override-9 .col-xs-offset-9,
+.less1d .grid-col-override-9 .col-xs-offset-9 {
+  margin-left: 100%;
+}
+.less1b .grid-col-override-9 .col-xs-8,
+.less1c .grid-col-override-9 .col-xs-8,
+.less1d .grid-col-override-9 .col-xs-8 {
+  width: 88.88888889%;
+}
+.less1b .grid-col-override-9 .col-xs-offset-8,
+.less1c .grid-col-override-9 .col-xs-offset-8,
+.less1d .grid-col-override-9 .col-xs-offset-8 {
+  margin-left: 88.88888889%;
+}
+.less1b .grid-col-override-9 .col-xs-7,
+.less1c .grid-col-override-9 .col-xs-7,
+.less1d .grid-col-override-9 .col-xs-7 {
+  width: 77.77777778%;
+}
+.less1b .grid-col-override-9 .col-xs-offset-7,
+.less1c .grid-col-override-9 .col-xs-offset-7,
+.less1d .grid-col-override-9 .col-xs-offset-7 {
+  margin-left: 77.77777778%;
+}
+.less1b .grid-col-override-9 .col-xs-6,
+.less1c .grid-col-override-9 .col-xs-6,
+.less1d .grid-col-override-9 .col-xs-6 {
+  width: 66.66666667%;
+}
+.less1b .grid-col-override-9 .col-xs-offset-6,
+.less1c .grid-col-override-9 .col-xs-offset-6,
+.less1d .grid-col-override-9 .col-xs-offset-6 {
+  margin-left: 66.66666667%;
+}
+.less1b .grid-col-override-9 .col-xs-5,
+.less1c .grid-col-override-9 .col-xs-5,
+.less1d .grid-col-override-9 .col-xs-5 {
+  width: 55.55555556%;
+}
+.less1b .grid-col-override-9 .col-xs-offset-5,
+.less1c .grid-col-override-9 .col-xs-offset-5,
+.less1d .grid-col-override-9 .col-xs-offset-5 {
+  margin-left: 55.55555556%;
+}
+.less1b .grid-col-override-9 .col-xs-4,
+.less1c .grid-col-override-9 .col-xs-4,
+.less1d .grid-col-override-9 .col-xs-4 {
+  width: 44.44444444%;
+}
+.less1b .grid-col-override-9 .col-xs-offset-4,
+.less1c .grid-col-override-9 .col-xs-offset-4,
+.less1d .grid-col-override-9 .col-xs-offset-4 {
+  margin-left: 44.44444444%;
+}
+.less1b .grid-col-override-9 .col-xs-3,
+.less1c .grid-col-override-9 .col-xs-3,
+.less1d .grid-col-override-9 .col-xs-3 {
+  width: 33.33333333%;
+}
+.less1b .grid-col-override-9 .col-xs-offset-3,
+.less1c .grid-col-override-9 .col-xs-offset-3,
+.less1d .grid-col-override-9 .col-xs-offset-3 {
+  margin-left: 33.33333333%;
+}
+.less1b .grid-col-override-9 .col-xs-2,
+.less1c .grid-col-override-9 .col-xs-2,
+.less1d .grid-col-override-9 .col-xs-2 {
+  width: 22.22222222%;
+}
+.less1b .grid-col-override-9 .col-xs-offset-2,
+.less1c .grid-col-override-9 .col-xs-offset-2,
+.less1d .grid-col-override-9 .col-xs-offset-2 {
+  margin-left: 22.22222222%;
+}
+.less1b .grid-col-override-9 .col-xs-1,
+.less1c .grid-col-override-9 .col-xs-1,
+.less1d .grid-col-override-9 .col-xs-1 {
+  width: 11.11111111%;
+}
+.less1b .grid-col-override-9 .col-xs-offset-1,
+.less1c .grid-col-override-9 .col-xs-offset-1,
+.less1d .grid-col-override-9 .col-xs-offset-1 {
+  margin-left: 11.11111111%;
+}
+.less1b .grid-col-override-8 .col-xs-8,
+.less1c .grid-col-override-8 .col-xs-8,
+.less1d .grid-col-override-8 .col-xs-8 {
+  width: 100%;
+}
+.less1b .grid-col-override-8 .col-xs-offset-8,
+.less1c .grid-col-override-8 .col-xs-offset-8,
+.less1d .grid-col-override-8 .col-xs-offset-8 {
+  margin-left: 100%;
+}
+.less1b .grid-col-override-8 .col-xs-7,
+.less1c .grid-col-override-8 .col-xs-7,
+.less1d .grid-col-override-8 .col-xs-7 {
+  width: 87.5%;
+}
+.less1b .grid-col-override-8 .col-xs-offset-7,
+.less1c .grid-col-override-8 .col-xs-offset-7,
+.less1d .grid-col-override-8 .col-xs-offset-7 {
+  margin-left: 87.5%;
+}
+.less1b .grid-col-override-8 .col-xs-6,
+.less1c .grid-col-override-8 .col-xs-6,
+.less1d .grid-col-override-8 .col-xs-6 {
+  width: 75%;
+}
+.less1b .grid-col-override-8 .col-xs-offset-6,
+.less1c .grid-col-override-8 .col-xs-offset-6,
+.less1d .grid-col-override-8 .col-xs-offset-6 {
+  margin-left: 75%;
+}
+.less1b .grid-col-override-8 .col-xs-5,
+.less1c .grid-col-override-8 .col-xs-5,
+.less1d .grid-col-override-8 .col-xs-5 {
+  width: 62.5%;
+}
+.less1b .grid-col-override-8 .col-xs-offset-5,
+.less1c .grid-col-override-8 .col-xs-offset-5,
+.less1d .grid-col-override-8 .col-xs-offset-5 {
+  margin-left: 62.5%;
+}
+.less1b .grid-col-override-8 .col-xs-4,
+.less1c .grid-col-override-8 .col-xs-4,
+.less1d .grid-col-override-8 .col-xs-4 {
+  width: 50%;
+}
+.less1b .grid-col-override-8 .col-xs-offset-4,
+.less1c .grid-col-override-8 .col-xs-offset-4,
+.less1d .grid-col-override-8 .col-xs-offset-4 {
+  margin-left: 50%;
+}
+.less1b .grid-col-override-8 .col-xs-3,
+.less1c .grid-col-override-8 .col-xs-3,
+.less1d .grid-col-override-8 .col-xs-3 {
+  width: 37.5%;
+}
+.less1b .grid-col-override-8 .col-xs-offset-3,
+.less1c .grid-col-override-8 .col-xs-offset-3,
+.less1d .grid-col-override-8 .col-xs-offset-3 {
+  margin-left: 37.5%;
+}
+.less1b .grid-col-override-8 .col-xs-2,
+.less1c .grid-col-override-8 .col-xs-2,
+.less1d .grid-col-override-8 .col-xs-2 {
+  width: 25%;
+}
+.less1b .grid-col-override-8 .col-xs-offset-2,
+.less1c .grid-col-override-8 .col-xs-offset-2,
+.less1d .grid-col-override-8 .col-xs-offset-2 {
+  margin-left: 25%;
+}
+.less1b .grid-col-override-8 .col-xs-1,
+.less1c .grid-col-override-8 .col-xs-1,
+.less1d .grid-col-override-8 .col-xs-1 {
+  width: 12.5%;
+}
+.less1b .grid-col-override-8 .col-xs-offset-1,
+.less1c .grid-col-override-8 .col-xs-offset-1,
+.less1d .grid-col-override-8 .col-xs-offset-1 {
+  margin-left: 12.5%;
+}
+.less1b .grid-col-override-7 .col-xs-7,
+.less1c .grid-col-override-7 .col-xs-7,
+.less1d .grid-col-override-7 .col-xs-7 {
+  width: 100%;
+}
+.less1b .grid-col-override-7 .col-xs-offset-7,
+.less1c .grid-col-override-7 .col-xs-offset-7,
+.less1d .grid-col-override-7 .col-xs-offset-7 {
+  margin-left: 100%;
+}
+.less1b .grid-col-override-7 .col-xs-6,
+.less1c .grid-col-override-7 .col-xs-6,
+.less1d .grid-col-override-7 .col-xs-6 {
+  width: 85.71428571%;
+}
+.less1b .grid-col-override-7 .col-xs-offset-6,
+.less1c .grid-col-override-7 .col-xs-offset-6,
+.less1d .grid-col-override-7 .col-xs-offset-6 {
+  margin-left: 85.71428571%;
+}
+.less1b .grid-col-override-7 .col-xs-5,
+.less1c .grid-col-override-7 .col-xs-5,
+.less1d .grid-col-override-7 .col-xs-5 {
+  width: 71.42857143%;
+}
+.less1b .grid-col-override-7 .col-xs-offset-5,
+.less1c .grid-col-override-7 .col-xs-offset-5,
+.less1d .grid-col-override-7 .col-xs-offset-5 {
+  margin-left: 71.42857143%;
+}
+.less1b .grid-col-override-7 .col-xs-4,
+.less1c .grid-col-override-7 .col-xs-4,
+.less1d .grid-col-override-7 .col-xs-4 {
+  width: 57.14285714%;
+}
+.less1b .grid-col-override-7 .col-xs-offset-4,
+.less1c .grid-col-override-7 .col-xs-offset-4,
+.less1d .grid-col-override-7 .col-xs-offset-4 {
+  margin-left: 57.14285714%;
+}
+.less1b .grid-col-override-7 .col-xs-3,
+.less1c .grid-col-override-7 .col-xs-3,
+.less1d .grid-col-override-7 .col-xs-3 {
+  width: 42.85714286%;
+}
+.less1b .grid-col-override-7 .col-xs-offset-3,
+.less1c .grid-col-override-7 .col-xs-offset-3,
+.less1d .grid-col-override-7 .col-xs-offset-3 {
+  margin-left: 42.85714286%;
+}
+.less1b .grid-col-override-7 .col-xs-2,
+.less1c .grid-col-override-7 .col-xs-2,
+.less1d .grid-col-override-7 .col-xs-2 {
+  width: 28.57142857%;
+}
+.less1b .grid-col-override-7 .col-xs-offset-2,
+.less1c .grid-col-override-7 .col-xs-offset-2,
+.less1d .grid-col-override-7 .col-xs-offset-2 {
+  margin-left: 28.57142857%;
+}
+.less1b .grid-col-override-7 .col-xs-1,
+.less1c .grid-col-override-7 .col-xs-1,
+.less1d .grid-col-override-7 .col-xs-1 {
+  width: 14.28571429%;
+}
+.less1b .grid-col-override-7 .col-xs-offset-1,
+.less1c .grid-col-override-7 .col-xs-offset-1,
+.less1d .grid-col-override-7 .col-xs-offset-1 {
+  margin-left: 14.28571429%;
+}
+.less1b .grid-col-override-6 .col-xs-6,
+.less1c .grid-col-override-6 .col-xs-6,
+.less1d .grid-col-override-6 .col-xs-6 {
+  width: 100%;
+}
+.less1b .grid-col-override-6 .col-xs-offset-6,
+.less1c .grid-col-override-6 .col-xs-offset-6,
+.less1d .grid-col-override-6 .col-xs-offset-6 {
+  margin-left: 100%;
+}
+.less1b .grid-col-override-6 .col-xs-5,
+.less1c .grid-col-override-6 .col-xs-5,
+.less1d .grid-col-override-6 .col-xs-5 {
+  width: 83.33333333%;
+}
+.less1b .grid-col-override-6 .col-xs-offset-5,
+.less1c .grid-col-override-6 .col-xs-offset-5,
+.less1d .grid-col-override-6 .col-xs-offset-5 {
+  margin-left: 83.33333333%;
+}
+.less1b .grid-col-override-6 .col-xs-4,
+.less1c .grid-col-override-6 .col-xs-4,
+.less1d .grid-col-override-6 .col-xs-4 {
+  width: 66.66666667%;
+}
+.less1b .grid-col-override-6 .col-xs-offset-4,
+.less1c .grid-col-override-6 .col-xs-offset-4,
+.less1d .grid-col-override-6 .col-xs-offset-4 {
+  margin-left: 66.66666667%;
+}
+.less1b .grid-col-override-6 .col-xs-3,
+.less1c .grid-col-override-6 .col-xs-3,
+.less1d .grid-col-override-6 .col-xs-3 {
+  width: 50%;
+}
+.less1b .grid-col-override-6 .col-xs-offset-3,
+.less1c .grid-col-override-6 .col-xs-offset-3,
+.less1d .grid-col-override-6 .col-xs-offset-3 {
+  margin-left: 50%;
+}
+.less1b .grid-col-override-6 .col-xs-2,
+.less1c .grid-col-override-6 .col-xs-2,
+.less1d .grid-col-override-6 .col-xs-2 {
+  width: 33.33333333%;
+}
+.less1b .grid-col-override-6 .col-xs-offset-2,
+.less1c .grid-col-override-6 .col-xs-offset-2,
+.less1d .grid-col-override-6 .col-xs-offset-2 {
+  margin-left: 33.33333333%;
+}
+.less1b .grid-col-override-6 .col-xs-1,
+.less1c .grid-col-override-6 .col-xs-1,
+.less1d .grid-col-override-6 .col-xs-1 {
+  width: 16.66666667%;
+}
+.less1b .grid-col-override-6 .col-xs-offset-1,
+.less1c .grid-col-override-6 .col-xs-offset-1,
+.less1d .grid-col-override-6 .col-xs-offset-1 {
+  margin-left: 16.66666667%;
+}
+.less1b .grid-col-override-5 .col-xs-5,
+.less1c .grid-col-override-5 .col-xs-5,
+.less1d .grid-col-override-5 .col-xs-5 {
+  width: 100%;
+}
+.less1b .grid-col-override-5 .col-xs-offset-5,
+.less1c .grid-col-override-5 .col-xs-offset-5,
+.less1d .grid-col-override-5 .col-xs-offset-5 {
+  margin-left: 100%;
+}
+.less1b .grid-col-override-5 .col-xs-4,
+.less1c .grid-col-override-5 .col-xs-4,
+.less1d .grid-col-override-5 .col-xs-4 {
+  width: 80%;
+}
+.less1b .grid-col-override-5 .col-xs-offset-4,
+.less1c .grid-col-override-5 .col-xs-offset-4,
+.less1d .grid-col-override-5 .col-xs-offset-4 {
+  margin-left: 80%;
+}
+.less1b .grid-col-override-5 .col-xs-3,
+.less1c .grid-col-override-5 .col-xs-3,
+.less1d .grid-col-override-5 .col-xs-3 {
+  width: 60%;
+}
+.less1b .grid-col-override-5 .col-xs-offset-3,
+.less1c .grid-col-override-5 .col-xs-offset-3,
+.less1d .grid-col-override-5 .col-xs-offset-3 {
+  margin-left: 60%;
+}
+.less1b .grid-col-override-5 .col-xs-2,
+.less1c .grid-col-override-5 .col-xs-2,
+.less1d .grid-col-override-5 .col-xs-2 {
+  width: 40%;
+}
+.less1b .grid-col-override-5 .col-xs-offset-2,
+.less1c .grid-col-override-5 .col-xs-offset-2,
+.less1d .grid-col-override-5 .col-xs-offset-2 {
+  margin-left: 40%;
+}
+.less1b .grid-col-override-5 .col-xs-1,
+.less1c .grid-col-override-5 .col-xs-1,
+.less1d .grid-col-override-5 .col-xs-1 {
+  width: 20%;
+}
+.less1b .grid-col-override-5 .col-xs-offset-1,
+.less1c .grid-col-override-5 .col-xs-offset-1,
+.less1d .grid-col-override-5 .col-xs-offset-1 {
+  margin-left: 20%;
+}
+.less1b .grid-col-override-4 .col-xs-4,
+.less1c .grid-col-override-4 .col-xs-4,
+.less1d .grid-col-override-4 .col-xs-4 {
+  width: 100%;
+}
+.less1b .grid-col-override-4 .col-xs-offset-4,
+.less1c .grid-col-override-4 .col-xs-offset-4,
+.less1d .grid-col-override-4 .col-xs-offset-4 {
+  margin-left: 100%;
+}
+.less1b .grid-col-override-4 .col-xs-3,
+.less1c .grid-col-override-4 .col-xs-3,
+.less1d .grid-col-override-4 .col-xs-3 {
+  width: 75%;
+}
+.less1b .grid-col-override-4 .col-xs-offset-3,
+.less1c .grid-col-override-4 .col-xs-offset-3,
+.less1d .grid-col-override-4 .col-xs-offset-3 {
+  margin-left: 75%;
+}
+.less1b .grid-col-override-4 .col-xs-2,
+.less1c .grid-col-override-4 .col-xs-2,
+.less1d .grid-col-override-4 .col-xs-2 {
+  width: 50%;
+}
+.less1b .grid-col-override-4 .col-xs-offset-2,
+.less1c .grid-col-override-4 .col-xs-offset-2,
+.less1d .grid-col-override-4 .col-xs-offset-2 {
+  margin-left: 50%;
+}
+.less1b .grid-col-override-4 .col-xs-1,
+.less1c .grid-col-override-4 .col-xs-1,
+.less1d .grid-col-override-4 .col-xs-1 {
+  width: 25%;
+}
+.less1b .grid-col-override-4 .col-xs-offset-1,
+.less1c .grid-col-override-4 .col-xs-offset-1,
+.less1d .grid-col-override-4 .col-xs-offset-1 {
+  margin-left: 25%;
+}
+.less1b .grid-col-override-3 .col-xs-3,
+.less1c .grid-col-override-3 .col-xs-3,
+.less1d .grid-col-override-3 .col-xs-3 {
+  width: 100%;
+}
+.less1b .grid-col-override-3 .col-xs-offset-3,
+.less1c .grid-col-override-3 .col-xs-offset-3,
+.less1d .grid-col-override-3 .col-xs-offset-3 {
+  margin-left: 100%;
+}
+.less1b .grid-col-override-3 .col-xs-2,
+.less1c .grid-col-override-3 .col-xs-2,
+.less1d .grid-col-override-3 .col-xs-2 {
+  width: 66.66666667%;
+}
+.less1b .grid-col-override-3 .col-xs-offset-2,
+.less1c .grid-col-override-3 .col-xs-offset-2,
+.less1d .grid-col-override-3 .col-xs-offset-2 {
+  margin-left: 66.66666667%;
+}
+.less1b .grid-col-override-3 .col-xs-1,
+.less1c .grid-col-override-3 .col-xs-1,
+.less1d .grid-col-override-3 .col-xs-1 {
+  width: 33.33333333%;
+}
+.less1b .grid-col-override-3 .col-xs-offset-1,
+.less1c .grid-col-override-3 .col-xs-offset-1,
+.less1d .grid-col-override-3 .col-xs-offset-1 {
+  margin-left: 33.33333333%;
+}
+.less1b .grid-col-override-2 .col-xs-2,
+.less1c .grid-col-override-2 .col-xs-2,
+.less1d .grid-col-override-2 .col-xs-2 {
+  width: 100%;
+}
+.less1b .grid-col-override-2 .col-xs-offset-2,
+.less1c .grid-col-override-2 .col-xs-offset-2,
+.less1d .grid-col-override-2 .col-xs-offset-2 {
+  margin-left: 100%;
+}
+.less1b .grid-col-override-2 .col-xs-1,
+.less1c .grid-col-override-2 .col-xs-1,
+.less1d .grid-col-override-2 .col-xs-1 {
+  width: 50%;
+}
+.less1b .grid-col-override-2 .col-xs-offset-1,
+.less1c .grid-col-override-2 .col-xs-offset-1,
+.less1d .grid-col-override-2 .col-xs-offset-1 {
+  margin-left: 50%;
+}
